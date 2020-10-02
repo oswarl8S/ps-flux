@@ -1,10 +1,36 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="BranchesTreeState">
+    <expand>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="LOCAL_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="GROUP_NODE:origin" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+    </expand>
+    <select />
+  </component>
   <component name="ChangeListManager">
-    <list default="true" id="751df467-35cd-4e9b-b142-5396eb634628" name="Default Changelist" comment="">
+    <list default="true" id="751df467-35cd-4e9b-b142-5396eb634628" name="Default Changelist" comment="hasta el video iniciando con flux">
+      <change afterPath="$PROJECT_DIR$/src/actions/actionTypes.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/actions/courseActions.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/appDispatcher.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/stores/courseStore.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/CourseList.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/CourseList.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/CoursesPage.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/CoursesPage.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/ManageCoursePage.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/ManageCoursePage.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/tools/db.json" beforeDir="false" afterPath="$PROJECT_DIR$/tools/db.json" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -36,6 +62,7 @@
     <key name="CopyFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$/tools" />
       <recent name="$PROJECT_DIR$" />
+      <recent name="$PROJECT_DIR$/src" />
     </key>
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
@@ -46,7 +73,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1601650137334</updated>
-      <workItem from="1601650138435" duration="759000" />
+      <workItem from="1601650138435" duration="7766000" />
     </task>
     <task id="LOCAL-00001" summary="cambios">
       <created>1601650246572</created>
@@ -62,37 +89,80 @@
       <option name="project" value="LOCAL" />
       <updated>1601650643800</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="hasta el video iniciando con flux">
+      <created>1601651102721</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1601651102721</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
   </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
   <component name="VcsManagerConfiguration">
     <option name="CHECK_CODE_SMELLS_BEFORE_PROJECT_COMMIT" value="false" />
     <MESSAGE value="cambios" />
-    <option name="LAST_COMMIT_MESSAGE" value="cambios" />
+    <MESSAGE value="hasta el video iniciando con flux" />
+    <option name="LAST_COMMIT_MESSAGE" value="hasta el video iniciando con flux" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="1280" y="-258" width="1920" height="1058" key="CommitChangelistDialog2" timestamp="1601650643615">
+    <state x="1280" y="-258" width="1920" height="1058" key="CommitChangelistDialog2" timestamp="1601663523292">
       <screen x="1280" y="-258" width="1920" height="1058" />
     </state>
-    <state x="1280" y="-258" width="1920" height="1058" key="CommitChangelistDialog2/1280.-258.1920.1058/0.22.1280.778@1280.-258.1920.1058" timestamp="1601650643615" />
-    <state x="1728" y="-51" key="DiffContextDialog" timestamp="1601650636987">
+    <state x="1280" y="-258" width="1920" height="1058" key="CommitChangelistDialog2/1280.-258.1920.1058/0.22.1280.778@1280.-258.1920.1058" timestamp="1601663523292" />
+    <state x="1728" y="-51" width="1024" height="622" key="DiffContextDialog" timestamp="1601663522989">
       <screen x="1280" y="-258" width="1920" height="1058" />
     </state>
-    <state x="1728" y="-51" key="DiffContextDialog/1280.-258.1920.1058/0.22.1280.778@1280.-258.1920.1058" timestamp="1601650636987" />
-    <state x="1996" y="-20" key="RollbackChangesDialog" timestamp="1601650406257">
+    <state x="1728" y="-51" width="1024" height="622" key="DiffContextDialog/1280.-258.1920.1058/0.22.1280.778@1280.-258.1920.1058" timestamp="1601663522989" />
+    <state width="1878" height="290" key="GridCell.Tab.0.bottom" timestamp="1601660387767">
       <screen x="1280" y="-258" width="1920" height="1058" />
     </state>
-    <state x="1996" y="-20" key="RollbackChangesDialog/1280.-258.1920.1058/0.22.1280.778@1280.-258.1920.1058" timestamp="1601650406257" />
-    <state x="1741" y="-90" key="SettingsEditor" timestamp="1601650900342">
+    <state width="1878" height="290" key="GridCell.Tab.0.bottom/1280.-258.1920.1058/0.22.1280.778@1280.-258.1920.1058" timestamp="1601660387767" />
+    <state width="1878" height="290" key="GridCell.Tab.0.center" timestamp="1601660387766">
       <screen x="1280" y="-258" width="1920" height="1058" />
     </state>
-    <state x="1741" y="-90" key="SettingsEditor/1280.-258.1920.1058/0.22.1280.778@1280.-258.1920.1058" timestamp="1601650900342" />
-    <state x="1840" y="11" key="Vcs.Push.Dialog.v2" timestamp="1601650647508">
+    <state width="1878" height="290" key="GridCell.Tab.0.center/1280.-258.1920.1058/0.22.1280.778@1280.-258.1920.1058" timestamp="1601660387766" />
+    <state width="1878" height="290" key="GridCell.Tab.0.left" timestamp="1601660387765">
       <screen x="1280" y="-258" width="1920" height="1058" />
     </state>
-    <state x="1840" y="11" key="Vcs.Push.Dialog.v2/1280.-258.1920.1058/0.22.1280.778@1280.-258.1920.1058" timestamp="1601650647508" />
+    <state width="1878" height="290" key="GridCell.Tab.0.left/1280.-258.1920.1058/0.22.1280.778@1280.-258.1920.1058" timestamp="1601660387765" />
+    <state width="1878" height="290" key="GridCell.Tab.0.right" timestamp="1601660387766">
+      <screen x="1280" y="-258" width="1920" height="1058" />
+    </state>
+    <state width="1878" height="290" key="GridCell.Tab.0.right/1280.-258.1920.1058/0.22.1280.778@1280.-258.1920.1058" timestamp="1601660387766" />
+    <state x="1996" y="-20" key="RollbackChangesDialog" timestamp="1601659393516">
+      <screen x="1280" y="-258" width="1920" height="1058" />
+    </state>
+    <state x="1996" y="-20" key="RollbackChangesDialog/1280.-258.1920.1058/0.22.1280.778@1280.-258.1920.1058" timestamp="1601659393516" />
+    <state x="1741" y="-90" key="SettingsEditor" timestamp="1601660464847">
+      <screen x="1280" y="-258" width="1920" height="1058" />
+    </state>
+    <state x="1741" y="-90" key="SettingsEditor/1280.-258.1920.1058/0.22.1280.778@1280.-258.1920.1058" timestamp="1601660464847" />
+    <state x="2090" y="193" key="VCS.ChangelistChooser" timestamp="1601651080332">
+      <screen x="1280" y="-258" width="1920" height="1058" />
+    </state>
+    <state x="2090" y="193" key="VCS.ChangelistChooser/1280.-258.1920.1058/0.22.1280.778@1280.-258.1920.1058" timestamp="1601651080332" />
+    <state x="1380" y="-158" width="1720" height="858" key="VCS.FileHistoryDialog" timestamp="1601666328662">
+      <screen x="1280" y="-258" width="1920" height="1058" />
+    </state>
+    <state x="1380" y="-158" width="1720" height="858" key="VCS.FileHistoryDialog/1280.-258.1920.1058/0.22.1280.778@1280.-258.1920.1058" timestamp="1601666328662" />
+    <state x="1840" y="11" key="Vcs.Push.Dialog.v2" timestamp="1601651105796">
+      <screen x="1280" y="-258" width="1920" height="1058" />
+    </state>
+    <state x="1840" y="11" key="Vcs.Push.Dialog.v2/1280.-258.1920.1058/0.22.1280.778@1280.-258.1920.1058" timestamp="1601651105796" />
   </component>
 </project>
