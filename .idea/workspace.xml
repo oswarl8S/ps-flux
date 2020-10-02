@@ -1,12 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="751df467-35cd-4e9b-b142-5396eb634628" name="Default Changelist" comment="cambios">
-      <change afterPath="$PROJECT_DIR$/src/components/common/TextInput.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/App.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/App.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/CourseForm.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/CourseForm.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/CoursesPage.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/CoursesPage.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/ManageCoursePage.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/ManageCoursePage.js" afterDir="false" />
+    <list default="true" id="751df467-35cd-4e9b-b142-5396eb634628" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -30,7 +28,15 @@
     <property name="last_opened_file_path" value="$PROJECT_DIR$/tools" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
+    <property name="nodejs_package_manager_path" value="npm" />
+    <property name="settings.editor.selected.configurable" value="preferences.keymap" />
     <property name="vue.rearranger.settings.migration" value="true" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/tools" />
+      <recent name="$PROJECT_DIR$" />
+    </key>
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
@@ -40,7 +46,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1601650137334</updated>
-      <workItem from="1601650138435" duration="379000" />
+      <workItem from="1601650138435" duration="759000" />
     </task>
     <task id="LOCAL-00001" summary="cambios">
       <created>1601650246572</created>
@@ -49,7 +55,14 @@
       <option name="project" value="LOCAL" />
       <updated>1601650246573</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="cambios">
+      <created>1601650643800</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1601650643800</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -61,21 +74,25 @@
     <option name="LAST_COMMIT_MESSAGE" value="cambios" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="1280" y="-258" width="1920" height="1058" key="CommitChangelistDialog2" timestamp="1601650436356">
+    <state x="1280" y="-258" width="1920" height="1058" key="CommitChangelistDialog2" timestamp="1601650643615">
       <screen x="1280" y="-258" width="1920" height="1058" />
     </state>
-    <state x="1280" y="-258" width="1920" height="1058" key="CommitChangelistDialog2/1280.-258.1920.1058/0.22.1280.778@1280.-258.1920.1058" timestamp="1601650436356" />
-    <state x="1728" y="-51" key="DiffContextDialog" timestamp="1601650398212">
+    <state x="1280" y="-258" width="1920" height="1058" key="CommitChangelistDialog2/1280.-258.1920.1058/0.22.1280.778@1280.-258.1920.1058" timestamp="1601650643615" />
+    <state x="1728" y="-51" key="DiffContextDialog" timestamp="1601650636987">
       <screen x="1280" y="-258" width="1920" height="1058" />
     </state>
-    <state x="1728" y="-51" key="DiffContextDialog/1280.-258.1920.1058/0.22.1280.778@1280.-258.1920.1058" timestamp="1601650398212" />
+    <state x="1728" y="-51" key="DiffContextDialog/1280.-258.1920.1058/0.22.1280.778@1280.-258.1920.1058" timestamp="1601650636987" />
     <state x="1996" y="-20" key="RollbackChangesDialog" timestamp="1601650406257">
       <screen x="1280" y="-258" width="1920" height="1058" />
     </state>
     <state x="1996" y="-20" key="RollbackChangesDialog/1280.-258.1920.1058/0.22.1280.778@1280.-258.1920.1058" timestamp="1601650406257" />
-    <state x="1840" y="11" key="Vcs.Push.Dialog.v2" timestamp="1601650250819">
+    <state x="1741" y="-90" key="SettingsEditor" timestamp="1601650900342">
       <screen x="1280" y="-258" width="1920" height="1058" />
     </state>
-    <state x="1840" y="11" key="Vcs.Push.Dialog.v2/1280.-258.1920.1058/0.22.1280.778@1280.-258.1920.1058" timestamp="1601650250819" />
+    <state x="1741" y="-90" key="SettingsEditor/1280.-258.1920.1058/0.22.1280.778@1280.-258.1920.1058" timestamp="1601650900342" />
+    <state x="1840" y="11" key="Vcs.Push.Dialog.v2" timestamp="1601650647508">
+      <screen x="1280" y="-258" width="1920" height="1058" />
+    </state>
+    <state x="1840" y="11" key="Vcs.Push.Dialog.v2/1280.-258.1920.1058/0.22.1280.778@1280.-258.1920.1058" timestamp="1601650647508" />
   </component>
 </project>
