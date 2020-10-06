@@ -19,18 +19,16 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="751df467-35cd-4e9b-b142-5396eb634628" name="Default Changelist" comment="hasta el video iniciando con flux">
-      <change afterPath="$PROJECT_DIR$/src/actions/actionTypes.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/actions/courseActions.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/appDispatcher.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/stores/courseStore.js" afterDir="false" />
+    <list default="true" id="751df467-35cd-4e9b-b142-5396eb634628" name="Default Changelist" comment="finalizado">
+      <change afterPath="$PROJECT_DIR$/.idea/rcc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/actions/actionTypes.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/actions/actionTypes.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/actions/courseActions.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/actions/courseActions.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/components/CourseList.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/CourseList.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/components/CoursesPage.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/CoursesPage.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/ManageCoursePage.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/ManageCoursePage.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/tools/db.json" beforeDir="false" afterPath="$PROJECT_DIR$/tools/db.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/CurseList.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/CursesPage.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/stores/courseStore.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/stores/courseStore.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -39,6 +37,13 @@
   </component>
   <component name="ComposerSettings">
     <execution />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="JavaScript File" />
+      </list>
+    </option>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -50,18 +55,23 @@
   </component>
   <component name="PropertiesComponent">
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/tools" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
     <property name="nodejs_package_manager_path" value="npm" />
-    <property name="settings.editor.selected.configurable" value="preferences.keymap" />
+    <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
+    <property name="ts.external.directory.path" value="$APPLICATION_HOME_DIR$/plugins/JavaScriptLanguage/jsLanguageServicesImpl/external" />
     <property name="vue.rearranger.settings.migration" value="true" />
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
-      <recent name="$PROJECT_DIR$/tools" />
       <recent name="$PROJECT_DIR$" />
+      <recent name="$PROJECT_DIR$/tools" />
+      <recent name="$PROJECT_DIR$/src" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$/src" />
     </key>
   </component>
@@ -73,7 +83,9 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1601650137334</updated>
-      <workItem from="1601650138435" duration="7766000" />
+      <workItem from="1601650138435" duration="13083000" />
+      <workItem from="1601868295550" duration="7187000" />
+      <workItem from="1601930928898" duration="17109000" />
     </task>
     <task id="LOCAL-00001" summary="cambios">
       <created>1601650246572</created>
@@ -96,7 +108,14 @@
       <option name="project" value="LOCAL" />
       <updated>1601651102721</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="finalizado">
+      <created>1601666353526</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1601666353526</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -112,22 +131,26 @@
         </entry>
       </map>
     </option>
+    <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="VcsManagerConfiguration">
     <option name="CHECK_CODE_SMELLS_BEFORE_PROJECT_COMMIT" value="false" />
     <MESSAGE value="cambios" />
     <MESSAGE value="hasta el video iniciando con flux" />
-    <option name="LAST_COMMIT_MESSAGE" value="hasta el video iniciando con flux" />
+    <MESSAGE value="finalizado" />
+    <option name="LAST_COMMIT_MESSAGE" value="finalizado" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="1280" y="-258" width="1920" height="1058" key="CommitChangelistDialog2" timestamp="1601663523292">
-      <screen x="1280" y="-258" width="1920" height="1058" />
+    <state x="0" y="22" width="1920" height="1058" key="CommitChangelistDialog2" timestamp="1601964683526">
+      <screen x="0" y="22" width="1280" height="778" />
     </state>
-    <state x="1280" y="-258" width="1920" height="1058" key="CommitChangelistDialog2/1280.-258.1920.1058/0.22.1280.778@1280.-258.1920.1058" timestamp="1601663523292" />
-    <state x="1728" y="-51" width="1024" height="622" key="DiffContextDialog" timestamp="1601663522989">
-      <screen x="1280" y="-258" width="1920" height="1058" />
+    <state x="0" y="22" key="CommitChangelistDialog2/1280.-258.1920.1058/0.22.1280.778@0.22.1280.778" timestamp="1601964683526" />
+    <state x="1280" y="-258" width="1920" height="1058" key="CommitChangelistDialog2/1280.-258.1920.1058/0.22.1280.778@1280.-258.1920.1058" timestamp="1601666353004" />
+    <state x="28" y="48" width="1225" height="734" key="DiffContextDialog" timestamp="1601964682245">
+      <screen x="0" y="22" width="1280" height="778" />
     </state>
-    <state x="1728" y="-51" width="1024" height="622" key="DiffContextDialog/1280.-258.1920.1058/0.22.1280.778@1280.-258.1920.1058" timestamp="1601663522989" />
+    <state x="28" y="48" width="1225" height="734" key="DiffContextDialog/1280.-258.1920.1058/0.22.1280.778@0.22.1280.778" timestamp="1601964682245" />
+    <state x="1728" y="-51" width="1024" height="622" key="DiffContextDialog/1280.-258.1920.1058/0.22.1280.778@1280.-258.1920.1058" timestamp="1601666703954" />
     <state width="1878" height="290" key="GridCell.Tab.0.bottom" timestamp="1601660387767">
       <screen x="1280" y="-258" width="1920" height="1058" />
     </state>
@@ -148,9 +171,10 @@
       <screen x="1280" y="-258" width="1920" height="1058" />
     </state>
     <state x="1996" y="-20" key="RollbackChangesDialog/1280.-258.1920.1058/0.22.1280.778@1280.-258.1920.1058" timestamp="1601659393516" />
-    <state x="1741" y="-90" key="SettingsEditor" timestamp="1601660464847">
-      <screen x="1280" y="-258" width="1920" height="1058" />
+    <state x="283" y="78" key="SettingsEditor" timestamp="1601964036656">
+      <screen x="0" y="22" width="1280" height="778" />
     </state>
+    <state x="283" y="78" key="SettingsEditor/1280.-258.1920.1058/0.22.1280.778@0.22.1280.778" timestamp="1601964036656" />
     <state x="1741" y="-90" key="SettingsEditor/1280.-258.1920.1058/0.22.1280.778@1280.-258.1920.1058" timestamp="1601660464847" />
     <state x="2090" y="193" key="VCS.ChangelistChooser" timestamp="1601651080332">
       <screen x="1280" y="-258" width="1920" height="1058" />
@@ -160,9 +184,25 @@
       <screen x="1280" y="-258" width="1920" height="1058" />
     </state>
     <state x="1380" y="-158" width="1720" height="858" key="VCS.FileHistoryDialog/1280.-258.1920.1058/0.22.1280.778@1280.-258.1920.1058" timestamp="1601666328662" />
-    <state x="1840" y="11" key="Vcs.Push.Dialog.v2" timestamp="1601651105796">
+    <state x="1840" y="11" key="Vcs.Push.Dialog.v2" timestamp="1601666375849">
       <screen x="1280" y="-258" width="1920" height="1058" />
     </state>
-    <state x="1840" y="11" key="Vcs.Push.Dialog.v2/1280.-258.1920.1058/0.22.1280.778@1280.-258.1920.1058" timestamp="1601651105796" />
+    <state x="1840" y="11" key="Vcs.Push.Dialog.v2/1280.-258.1920.1058/0.22.1280.778@1280.-258.1920.1058" timestamp="1601666375849" />
+    <state x="296" y="32" key="com.intellij.openapi.editor.actions.MultiplePasteAction$ClipboardContentChooser" timestamp="1601964326069">
+      <screen x="0" y="22" width="1280" height="778" />
+    </state>
+    <state x="296" y="32" key="com.intellij.openapi.editor.actions.MultiplePasteAction$ClipboardContentChooser/1280.-258.1920.1058/0.22.1280.778@0.22.1280.778" timestamp="1601964326069" />
+    <state x="332" y="43" width="615" height="735" key="find.popup" timestamp="1601964556597">
+      <screen x="0" y="22" width="1280" height="778" />
+    </state>
+    <state x="332" y="43" width="615" height="735" key="find.popup/1280.-258.1920.1058/0.22.1280.778@0.22.1280.778" timestamp="1601964556597" />
+    <state x="305" y="185" key="run.anything.popup" timestamp="1601948263907">
+      <screen x="0" y="22" width="1280" height="778" />
+    </state>
+    <state x="305" y="185" key="run.anything.popup/1280.-258.1920.1058/0.22.1280.778@0.22.1280.778" timestamp="1601948263907" />
+    <state x="305" y="124" width="670" height="676" key="search.everywhere.popup" timestamp="1601961882856">
+      <screen x="0" y="22" width="1280" height="778" />
+    </state>
+    <state x="305" y="124" width="670" height="676" key="search.everywhere.popup/1280.-258.1920.1058/0.22.1280.778@0.22.1280.778" timestamp="1601961882856" />
   </component>
 </project>
