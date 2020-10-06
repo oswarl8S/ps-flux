@@ -1,8 +1,10 @@
 import React, {useEffect, useState} from "react";
-import courseStore from "../stores/courseStore";
-import CourseList from "./CourseList";
 import {Link} from "react-router-dom";
-import {deleteCourse, loadCourses} from "../actions/courseActions";
+
+import CourseList from "./CourseList";
+
+import {deleteCourse, loadCourses} from "../../../actions/Course/courseActions";
+import courseStore from "../../../stores/courseStore";
 
 function CoursesPage() {
 	const [courses, setCourses] = useState(courseStore.getCourses());

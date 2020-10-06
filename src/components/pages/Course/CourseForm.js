@@ -1,5 +1,5 @@
 import React from "react";
-import TextInput from "./common/TextInput";
+import TextInput from "../../common/TextInput";
 import PropTypes from "prop-types";
 
 function CourseForm(props) {
@@ -17,17 +17,18 @@ function CourseForm(props) {
       <div className="form-group">
         <label htmlFor="author">Author</label>
         <div className="field">
-          <select
-            id="author"
-            name="authorId"
-            onChange={props.onChange}
-            value={props.course.authorId || ""}
-            className="form-control"
-          >
-            <option value="" />
-            <option value="1">Cory House</option>
-            <option value="2">Scott Allen</option>
-          </select>
+            <select
+                id="author"
+                name="authorId"
+                onChange={props.onChange}
+                value={props.course.authorId || ""}
+                className="form-control"
+            >
+                <option value=""/>
+                {props.authors && props.authors.map(author => (
+                    <option value={author.id}>{author.name}</option>
+                ))}
+            </select>
         </div>
         {props.errors.authorId && (
           <div className="alert alert-danger">{props.errors.authorId}</div>
@@ -49,10 +50,16 @@ function CourseForm(props) {
 }
 
 CourseForm.propTypes = {
-  course: PropTypes.object.isRequired,
-  onSubmit: PropTypes.func.isRequired,
-  onChange: PropTypes.func.isRequired,
-  errors: PropTypes.object.isRequired
+    course: PropTypes.object.isRequired,
+    authors: PropTypes.arrayOf(
+        PropTypes.shape({
+            id: PropTypes.number.isRequired,
+            name: PropTypes.string.isRequired
+        })
+    ).isRequired,
+    onSubmit: PropTypes.func.isRequired,
+    onChange: PropTypes.func.isRequired,
+    errors: PropTypes.object.isRequired
 };
 
 export default CourseForm;

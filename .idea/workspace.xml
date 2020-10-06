@@ -19,16 +19,30 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="751df467-35cd-4e9b-b142-5396eb634628" name="Default Changelist" comment="finalizado">
-      <change afterPath="$PROJECT_DIR$/.idea/rcc.xml" afterDir="false" />
+    <list default="true" id="751df467-35cd-4e9b-b142-5396eb634628" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/src/actions/Author/actionTypes.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/actions/Author/authorActions.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/pages/Author/AuthorForm.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/pages/Author/AuthorList.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/pages/Author/AuthorsPage.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/pages/Author/ManageAuthorPage.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/stores/authorStore.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/actions/actionTypes.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/actions/actionTypes.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/actions/courseActions.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/actions/courseActions.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/CourseList.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/CourseList.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/CoursesPage.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/CoursesPage.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/CurseList.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/CursesPage.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/actions/actionTypes.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/actions/Course/actionTypes.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/actions/courseActions.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/actions/Course/courseActions.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/api/authorApi.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/api/authorApi.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/AboutPage.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/pages/About/AboutPage.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/App.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/App.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/CourseForm.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/pages/Course/CourseForm.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/CourseList.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/pages/Course/CourseList.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/CoursesPage.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/pages/Course/CoursesPage.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/HomePage.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/pages/Home/HomePage.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/ManageCoursePage.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/pages/Course/ManageCoursePage.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/NotFoundPage.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/pages/NotFoundPage/NotFoundPage.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/common/Header.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/common/Header.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/stores/courseStore.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/stores/courseStore.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/tools/db.json" beforeDir="false" afterPath="$PROJECT_DIR$/tools/db.json" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -57,22 +71,28 @@
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/src/components/pages" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
     <property name="nodejs_package_manager_path" value="npm" />
-    <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
+    <property name="settings.editor.selected.configurable" value="preferences.keymap" />
     <property name="ts.external.directory.path" value="$APPLICATION_HOME_DIR$/plugins/JavaScriptLanguage/jsLanguageServicesImpl/external" />
     <property name="vue.rearranger.settings.migration" value="true" />
   </component>
   <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/src/components/pages/NotFoundPage" />
+      <recent name="$PROJECT_DIR$/src/components/pages/courses" />
+      <recent name="$PROJECT_DIR$/src/components/pages/home" />
+      <recent name="$PROJECT_DIR$/src/components/pages/about" />
+      <recent name="$PROJECT_DIR$/src/components/pages" />
+    </key>
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/src/components/pages" />
+      <recent name="$PROJECT_DIR$/src/actions" />
+      <recent name="$PROJECT_DIR$/src/actions/course" />
       <recent name="$PROJECT_DIR$" />
       <recent name="$PROJECT_DIR$/tools" />
-      <recent name="$PROJECT_DIR$/src" />
-    </key>
-    <key name="MoveFile.RECENT_KEYS">
-      <recent name="$PROJECT_DIR$/src" />
     </key>
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
@@ -146,11 +166,11 @@
     </state>
     <state x="0" y="22" key="CommitChangelistDialog2/1280.-258.1920.1058/0.22.1280.778@0.22.1280.778" timestamp="1601964683526" />
     <state x="1280" y="-258" width="1920" height="1058" key="CommitChangelistDialog2/1280.-258.1920.1058/0.22.1280.778@1280.-258.1920.1058" timestamp="1601666353004" />
-    <state x="28" y="48" width="1225" height="734" key="DiffContextDialog" timestamp="1601964682245">
-      <screen x="0" y="22" width="1280" height="778" />
+    <state x="1728" y="-51" width="1024" height="622" key="DiffContextDialog" timestamp="1601970557720">
+      <screen x="1280" y="-258" width="1920" height="1058" />
     </state>
     <state x="28" y="48" width="1225" height="734" key="DiffContextDialog/1280.-258.1920.1058/0.22.1280.778@0.22.1280.778" timestamp="1601964682245" />
-    <state x="1728" y="-51" width="1024" height="622" key="DiffContextDialog/1280.-258.1920.1058/0.22.1280.778@1280.-258.1920.1058" timestamp="1601666703954" />
+    <state x="1728" y="-51" width="1024" height="622" key="DiffContextDialog/1280.-258.1920.1058/0.22.1280.778@1280.-258.1920.1058" timestamp="1601970557720" />
     <state width="1878" height="290" key="GridCell.Tab.0.bottom" timestamp="1601660387767">
       <screen x="1280" y="-258" width="1920" height="1058" />
     </state>
@@ -171,11 +191,11 @@
       <screen x="1280" y="-258" width="1920" height="1058" />
     </state>
     <state x="1996" y="-20" key="RollbackChangesDialog/1280.-258.1920.1058/0.22.1280.778@1280.-258.1920.1058" timestamp="1601659393516" />
-    <state x="283" y="78" key="SettingsEditor" timestamp="1601964036656">
-      <screen x="0" y="22" width="1280" height="778" />
+    <state x="1741" y="-90" key="SettingsEditor" timestamp="1601969228693">
+      <screen x="1280" y="-258" width="1920" height="1058" />
     </state>
     <state x="283" y="78" key="SettingsEditor/1280.-258.1920.1058/0.22.1280.778@0.22.1280.778" timestamp="1601964036656" />
-    <state x="1741" y="-90" key="SettingsEditor/1280.-258.1920.1058/0.22.1280.778@1280.-258.1920.1058" timestamp="1601660464847" />
+    <state x="1741" y="-90" key="SettingsEditor/1280.-258.1920.1058/0.22.1280.778@1280.-258.1920.1058" timestamp="1601969228693" />
     <state x="2090" y="193" key="VCS.ChangelistChooser" timestamp="1601651080332">
       <screen x="1280" y="-258" width="1920" height="1058" />
     </state>
@@ -188,14 +208,16 @@
       <screen x="1280" y="-258" width="1920" height="1058" />
     </state>
     <state x="1840" y="11" key="Vcs.Push.Dialog.v2/1280.-258.1920.1058/0.22.1280.778@1280.-258.1920.1058" timestamp="1601666375849" />
-    <state x="296" y="32" key="com.intellij.openapi.editor.actions.MultiplePasteAction$ClipboardContentChooser" timestamp="1601964326069">
-      <screen x="0" y="22" width="1280" height="778" />
+    <state x="1724" y="-244" key="com.intellij.openapi.editor.actions.MultiplePasteAction$ClipboardContentChooser" timestamp="1601972168089">
+      <screen x="1280" y="-258" width="1920" height="1058" />
     </state>
     <state x="296" y="32" key="com.intellij.openapi.editor.actions.MultiplePasteAction$ClipboardContentChooser/1280.-258.1920.1058/0.22.1280.778@0.22.1280.778" timestamp="1601964326069" />
-    <state x="332" y="43" width="615" height="735" key="find.popup" timestamp="1601964556597">
-      <screen x="0" y="22" width="1280" height="778" />
+    <state x="1724" y="-244" key="com.intellij.openapi.editor.actions.MultiplePasteAction$ClipboardContentChooser/1280.-258.1920.1058/0.22.1280.778@1280.-258.1920.1058" timestamp="1601972168089" />
+    <state x="1778" y="-229" width="923" height="1000" key="find.popup" timestamp="1601972107318">
+      <screen x="1280" y="-258" width="1920" height="1058" />
     </state>
     <state x="332" y="43" width="615" height="735" key="find.popup/1280.-258.1920.1058/0.22.1280.778@0.22.1280.778" timestamp="1601964556597" />
+    <state x="1778" y="-229" width="923" height="1000" key="find.popup/1280.-258.1920.1058/0.22.1280.778@1280.-258.1920.1058" timestamp="1601972107318" />
     <state x="305" y="185" key="run.anything.popup" timestamp="1601948263907">
       <screen x="0" y="22" width="1280" height="778" />
     </state>
