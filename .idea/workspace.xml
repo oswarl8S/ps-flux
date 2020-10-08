@@ -19,21 +19,14 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="751df467-35cd-4e9b-b142-5396eb634628" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/../ps-redux/src/components/App.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../ps-redux/src/components/PageNotFound.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../ps-redux/src/components/about/AboutPage.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../ps-redux/src/components/common/Header.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../ps-redux/src/components/courses/CoursesPage.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../ps-redux/src/components/home/HomePage.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../ps-redux/src/favicon.ico" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../ps-redux/src/index.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../ps-redux/src/index.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../ps-redux/src/index.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/ps-flux.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/ps-flux.iml" afterDir="false" />
+    <list default="true" id="751df467-35cd-4e9b-b142-5396eb634628" name="Default Changelist" comment="files ps-reedux">
+      <change afterPath="$PROJECT_DIR$/../ps-redux/src/redux/actions/courseActions.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ps-redux/src/redux/configureStore.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ps-redux/src/redux/reducers/courseReducer.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ps-redux/src/redux/reducers/index.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/tools/db.json" beforeDir="false" afterPath="$PROJECT_DIR$/tools/db.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ps-redux/src/components/courses/CoursesPage.js" beforeDir="false" afterPath="$PROJECT_DIR$/../ps-redux/src/components/courses/CoursesPage.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ps-redux/src/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/../ps-redux/src/index.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -98,7 +91,7 @@
       <workItem from="1601650138435" duration="13083000" />
       <workItem from="1601868295550" duration="7187000" />
       <workItem from="1601930928898" duration="17109000" />
-      <workItem from="1602106974564" duration="1029000" />
+      <workItem from="1602106974564" duration="8193000" />
     </task>
     <task id="LOCAL-00001" summary="cambios">
       <created>1601650246572</created>
@@ -135,7 +128,14 @@
       <option name="project" value="LOCAL" />
       <updated>1601972593823</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="files ps-reedux">
+      <created>1602111105067</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1602111105067</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -159,18 +159,19 @@
     <MESSAGE value="hasta el video iniciando con flux" />
     <MESSAGE value="finalizado" />
     <MESSAGE value="finalizado con modulo de author" />
-    <option name="LAST_COMMIT_MESSAGE" value="finalizado con modulo de author" />
+    <MESSAGE value="files ps-reedux" />
+    <option name="LAST_COMMIT_MESSAGE" value="files ps-reedux" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="1280" y="-258" width="1920" height="1058" key="CommitChangelistDialog2" timestamp="1601972593514">
-      <screen x="1280" y="-258" width="1920" height="1058" />
-    </state>
-    <state x="0" y="22" key="CommitChangelistDialog2/1280.-258.1920.1058/0.22.1280.778@0.22.1280.778" timestamp="1601964683526" />
-    <state x="1280" y="-258" width="1920" height="1058" key="CommitChangelistDialog2/1280.-258.1920.1058/0.22.1280.778@1280.-258.1920.1058" timestamp="1601972593514" />
-    <state x="28" y="48" width="1225" height="734" key="DiffContextDialog" timestamp="1602031352489">
+    <state x="24" y="55" width="1243" height="726" key="CommitChangelistDialog2" timestamp="1602111334484">
       <screen x="0" y="22" width="1280" height="778" />
     </state>
-    <state x="28" y="48" width="1225" height="734" key="DiffContextDialog/1280.-258.1920.1058/0.22.1280.778@0.22.1280.778" timestamp="1602031352489" />
+    <state x="24" y="55" width="1243" height="726" key="CommitChangelistDialog2/1280.-258.1920.1058/0.22.1280.778@0.22.1280.778" timestamp="1602111334484" />
+    <state x="1280" y="-258" width="1920" height="1058" key="CommitChangelistDialog2/1280.-258.1920.1058/0.22.1280.778@1280.-258.1920.1058" timestamp="1601972593514" />
+    <state x="28" y="48" width="1225" height="734" key="DiffContextDialog" timestamp="1602111328999">
+      <screen x="0" y="22" width="1280" height="778" />
+    </state>
+    <state x="28" y="48" width="1225" height="734" key="DiffContextDialog/1280.-258.1920.1058/0.22.1280.778@0.22.1280.778" timestamp="1602111328999" />
     <state x="1286" y="-255" width="1908" height="1052" maximized="true" key="DiffContextDialog/1280.-258.1920.1058/0.22.1280.778@1280.-258.1920.1058" timestamp="1602024031283" />
     <state width="1238" height="290" key="GridCell.Tab.0.bottom" timestamp="1602106365783">
       <screen x="0" y="22" width="1280" height="778" />
@@ -205,14 +206,15 @@
       <screen x="1280" y="-258" width="1920" height="1058" />
     </state>
     <state x="2090" y="193" key="VCS.ChangelistChooser/1280.-258.1920.1058/0.22.1280.778@1280.-258.1920.1058" timestamp="1601651080332" />
-    <state x="1380" y="-158" width="1720" height="858" key="VCS.FileHistoryDialog" timestamp="1602022664110">
-      <screen x="1280" y="-258" width="1920" height="1058" />
-    </state>
-    <state x="1380" y="-158" width="1720" height="858" key="VCS.FileHistoryDialog/1280.-258.1920.1058/0.22.1280.778@1280.-258.1920.1058" timestamp="1602022664110" />
-    <state x="373" y="220" key="Vcs.Push.Dialog.v2" timestamp="1602106759000">
+    <state x="67" y="96" width="1147" height="631" key="VCS.FileHistoryDialog" timestamp="1602111329000">
       <screen x="0" y="22" width="1280" height="778" />
     </state>
-    <state x="373" y="220" key="Vcs.Push.Dialog.v2/1280.-258.1920.1058/0.22.1280.778@0.22.1280.778" timestamp="1602106759000" />
+    <state x="67" y="96" width="1147" height="631" key="VCS.FileHistoryDialog/1280.-258.1920.1058/0.22.1280.778@0.22.1280.778" timestamp="1602111329000" />
+    <state x="1380" y="-158" width="1720" height="858" key="VCS.FileHistoryDialog/1280.-258.1920.1058/0.22.1280.778@1280.-258.1920.1058" timestamp="1602022664110" />
+    <state x="303" y="171" key="Vcs.Push.Dialog.v2" timestamp="1602111213874">
+      <screen x="0" y="22" width="1280" height="778" />
+    </state>
+    <state x="303" y="171" key="Vcs.Push.Dialog.v2/1280.-258.1920.1058/0.22.1280.778@0.22.1280.778" timestamp="1602111213874" />
     <state x="1840" y="11" key="Vcs.Push.Dialog.v2/1280.-258.1920.1058/0.22.1280.778@1280.-258.1920.1058" timestamp="1601972597092" />
     <state x="1724" y="-244" key="com.intellij.openapi.editor.actions.MultiplePasteAction$ClipboardContentChooser" timestamp="1601972168089">
       <screen x="1280" y="-258" width="1920" height="1058" />
@@ -224,10 +226,10 @@
     </state>
     <state x="332" y="43" width="615" height="735" key="find.popup/1280.-258.1920.1058/0.22.1280.778@0.22.1280.778" timestamp="1601964556597" />
     <state x="1778" y="-229" width="923" height="1000" key="find.popup/1280.-258.1920.1058/0.22.1280.778@1280.-258.1920.1058" timestamp="1601972107318" />
-    <state x="437" y="307" key="git4idea.remote.GitConfigureRemotesDialog" timestamp="1602106463285">
+    <state x="437" y="307" key="git4idea.remote.GitConfigureRemotesDialog" timestamp="1602111177214">
       <screen x="0" y="22" width="1280" height="778" />
     </state>
-    <state x="437" y="307" key="git4idea.remote.GitConfigureRemotesDialog/1280.-258.1920.1058/0.22.1280.778@0.22.1280.778" timestamp="1602106463285" />
+    <state x="437" y="307" key="git4idea.remote.GitConfigureRemotesDialog/1280.-258.1920.1058/0.22.1280.778@0.22.1280.778" timestamp="1602111177214" />
     <state x="305" y="185" key="run.anything.popup" timestamp="1601948263907">
       <screen x="0" y="22" width="1280" height="778" />
     </state>
