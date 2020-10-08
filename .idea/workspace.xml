@@ -20,7 +20,6 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="751df467-35cd-4e9b-b142-5396eb634628" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../ps-redux/src/components/courses/CoursesPage.js" beforeDir="false" afterPath="$PROJECT_DIR$/../ps-redux/src/components/courses/CoursesPage.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -86,7 +85,7 @@
       <workItem from="1601650138435" duration="13083000" />
       <workItem from="1601868295550" duration="7187000" />
       <workItem from="1601930928898" duration="17109000" />
-      <workItem from="1602106974564" duration="12961000" />
+      <workItem from="1602106974564" duration="12993000" />
     </task>
     <task id="LOCAL-00001" summary="cambios">
       <created>1601650246572</created>
@@ -137,7 +136,14 @@
       <option name="project" value="LOCAL" />
       <updated>1602122089648</updated>
     </task>
-    <option name="localTasksCounter" value="8" />
+    <task id="LOCAL-00008" summary="uso de dispatch">
+      <created>1602129987813</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1602129987813</updated>
+    </task>
+    <option name="localTasksCounter" value="9" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -163,18 +169,19 @@
     <MESSAGE value="finalizado con modulo de author" />
     <MESSAGE value="files ps-reedux" />
     <MESSAGE value="configuration of redux in react project" />
-    <option name="LAST_COMMIT_MESSAGE" value="configuration of redux in react project" />
+    <MESSAGE value="uso de dispatch" />
+    <option name="LAST_COMMIT_MESSAGE" value="uso de dispatch" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="24" y="55" width="1243" height="726" key="CommitChangelistDialog2" timestamp="1602122089268">
+    <state x="24" y="55" width="1243" height="726" key="CommitChangelistDialog2" timestamp="1602129987471">
       <screen x="0" y="22" width="1280" height="778" />
     </state>
-    <state x="24" y="55" width="1243" height="726" key="CommitChangelistDialog2/1280.-258.1920.1058/0.22.1280.778@0.22.1280.778" timestamp="1602122089268" />
+    <state x="24" y="55" width="1243" height="726" key="CommitChangelistDialog2/1280.-258.1920.1058/0.22.1280.778@0.22.1280.778" timestamp="1602129987471" />
     <state x="1280" y="-258" width="1920" height="1058" key="CommitChangelistDialog2/1280.-258.1920.1058/0.22.1280.778@1280.-258.1920.1058" timestamp="1601972593514" />
-    <state x="28" y="48" width="1225" height="734" key="DiffContextDialog" timestamp="1602129912279">
+    <state x="28" y="48" width="1225" height="734" key="DiffContextDialog" timestamp="1602129978299">
       <screen x="0" y="22" width="1280" height="778" />
     </state>
-    <state x="28" y="48" width="1225" height="734" key="DiffContextDialog/1280.-258.1920.1058/0.22.1280.778@0.22.1280.778" timestamp="1602129912279" />
+    <state x="28" y="48" width="1225" height="734" key="DiffContextDialog/1280.-258.1920.1058/0.22.1280.778@0.22.1280.778" timestamp="1602129978299" />
     <state x="1286" y="-255" width="1908" height="1052" maximized="true" key="DiffContextDialog/1280.-258.1920.1058/0.22.1280.778@1280.-258.1920.1058" timestamp="1602024031283" />
     <state width="1238" height="290" key="GridCell.Tab.0.bottom" timestamp="1602106365783">
       <screen x="0" y="22" width="1280" height="778" />
@@ -214,10 +221,10 @@
     </state>
     <state x="67" y="96" width="1147" height="631" key="VCS.FileHistoryDialog/1280.-258.1920.1058/0.22.1280.778@0.22.1280.778" timestamp="1602111329000" />
     <state x="1380" y="-158" width="1720" height="858" key="VCS.FileHistoryDialog/1280.-258.1920.1058/0.22.1280.778@1280.-258.1920.1058" timestamp="1602022664110" />
-    <state x="303" y="171" key="Vcs.Push.Dialog.v2" timestamp="1602122094778">
+    <state x="303" y="171" key="Vcs.Push.Dialog.v2" timestamp="1602129990889">
       <screen x="0" y="22" width="1280" height="778" />
     </state>
-    <state x="303" y="171" key="Vcs.Push.Dialog.v2/1280.-258.1920.1058/0.22.1280.778@0.22.1280.778" timestamp="1602122094778" />
+    <state x="303" y="171" key="Vcs.Push.Dialog.v2/1280.-258.1920.1058/0.22.1280.778@0.22.1280.778" timestamp="1602129990889" />
     <state x="1840" y="11" key="Vcs.Push.Dialog.v2/1280.-258.1920.1058/0.22.1280.778@1280.-258.1920.1058" timestamp="1601972597092" />
     <state x="1724" y="-244" key="com.intellij.openapi.editor.actions.MultiplePasteAction$ClipboardContentChooser" timestamp="1601972168089">
       <screen x="1280" y="-258" width="1920" height="1058" />
