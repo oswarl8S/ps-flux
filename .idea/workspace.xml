@@ -19,22 +19,10 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="751df467-35cd-4e9b-b142-5396eb634628" name="Default Changelist" comment="uso de dispatch mas limpio y reducido">
-      <change afterPath="$PROJECT_DIR$/../ps-redux/src/components/courses/CourseList.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../ps-redux/src/redux/actions/actionTypes.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../ps-redux/src/redux/actions/authorActions.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../ps-redux/src/redux/reducers/authorReducer.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../ps-redux/src/redux/reducers/initialState.js" afterDir="false" />
+    <list default="true" id="751df467-35cd-4e9b-b142-5396eb634628" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/../ps-redux/src/components/courses/ManageCoursePage.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../ps-redux/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/../ps-redux/package.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../ps-redux/src/api/authorApi.js" beforeDir="false" afterPath="$PROJECT_DIR$/../ps-redux/src/api/authorApi.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../ps-redux/src/api/courseApi.js" beforeDir="false" afterPath="$PROJECT_DIR$/../ps-redux/src/api/courseApi.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../ps-redux/src/components/courses/CoursesPage.js" beforeDir="false" afterPath="$PROJECT_DIR$/../ps-redux/src/components/courses/CoursesPage.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../ps-redux/src/redux/actions/courseActions.js" beforeDir="false" afterPath="$PROJECT_DIR$/../ps-redux/src/redux/actions/courseActions.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../ps-redux/src/redux/configureStore.js" beforeDir="false" afterPath="$PROJECT_DIR$/../ps-redux/src/redux/configureStore.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../ps-redux/src/redux/reducers/courseReducer.js" beforeDir="false" afterPath="$PROJECT_DIR$/../ps-redux/src/redux/reducers/courseReducer.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../ps-redux/src/redux/reducers/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/../ps-redux/src/redux/reducers/index.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../ps-redux/webpack.config.dev.js" beforeDir="false" afterPath="$PROJECT_DIR$/../ps-redux/webpack.config.dev.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ps-redux/src/components/App.js" beforeDir="false" afterPath="$PROJECT_DIR$/../ps-redux/src/components/App.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -101,7 +89,7 @@
       <workItem from="1601868295550" duration="7187000" />
       <workItem from="1601930928898" duration="17109000" />
       <workItem from="1602106974564" duration="24581000" />
-      <workItem from="1602179824503" duration="3995000" />
+      <workItem from="1602179824503" duration="5264000" />
     </task>
     <task id="LOCAL-00001" summary="cambios">
       <created>1601650246572</created>
@@ -180,7 +168,14 @@
       <option name="project" value="LOCAL" />
       <updated>1602177907301</updated>
     </task>
-    <option name="localTasksCounter" value="12" />
+    <task id="LOCAL-00012" summary="configuracion de redux y uso de redux al leer datos">
+      <created>1602184159093</created>
+      <option name="number" value="00012" />
+      <option name="presentableId" value="LOCAL-00012" />
+      <option name="project" value="LOCAL" />
+      <updated>1602184159093</updated>
+    </task>
+    <option name="localTasksCounter" value="13" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -210,18 +205,19 @@
     <MESSAGE value="uso de mapDispatchToProps mas limpio" />
     <MESSAGE value="uso de dispatch mas limpio y reducido" />
     <MESSAGE value="upload api and tool server" />
-    <option name="LAST_COMMIT_MESSAGE" value="upload api and tool server" />
+    <MESSAGE value="configuracion de redux y uso de redux al leer datos" />
+    <option name="LAST_COMMIT_MESSAGE" value="configuracion de redux y uso de redux al leer datos" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="24" y="55" width="1243" height="726" key="CommitChangelistDialog2" timestamp="1602180125309">
+    <state x="24" y="55" width="1243" height="726" key="CommitChangelistDialog2" timestamp="1602184158404">
       <screen x="0" y="22" width="1280" height="778" />
     </state>
-    <state x="24" y="55" width="1243" height="726" key="CommitChangelistDialog2/1280.-258.1920.1058/0.22.1280.778@0.22.1280.778" timestamp="1602180125309" />
+    <state x="24" y="55" width="1243" height="726" key="CommitChangelistDialog2/1280.-258.1920.1058/0.22.1280.778@0.22.1280.778" timestamp="1602184158404" />
     <state x="1280" y="-258" width="1920" height="1058" key="CommitChangelistDialog2/1280.-258.1920.1058/0.22.1280.778@1280.-258.1920.1058" timestamp="1602179146066" />
-    <state x="28" y="48" width="1225" height="734" key="DiffContextDialog" timestamp="1602180178351">
+    <state x="28" y="48" width="1225" height="734" key="DiffContextDialog" timestamp="1602184122716">
       <screen x="0" y="22" width="1280" height="778" />
     </state>
-    <state x="28" y="48" width="1225" height="734" key="DiffContextDialog/1280.-258.1920.1058/0.22.1280.778@0.22.1280.778" timestamp="1602180178351" />
+    <state x="28" y="48" width="1225" height="734" key="DiffContextDialog/1280.-258.1920.1058/0.22.1280.778@0.22.1280.778" timestamp="1602184122716" />
     <state x="1286" y="-255" width="1908" height="1052" maximized="true" key="DiffContextDialog/1280.-258.1920.1058/0.22.1280.778@1280.-258.1920.1058" timestamp="1602179144804" />
     <state width="1238" height="290" key="GridCell.Tab.0.bottom" timestamp="1602178903414">
       <screen x="0" y="22" width="1280" height="778" />
@@ -262,20 +258,20 @@
     </state>
     <state x="67" y="96" width="1147" height="631" key="VCS.FileHistoryDialog/1280.-258.1920.1058/0.22.1280.778@0.22.1280.778" timestamp="1602111329000" />
     <state x="1380" y="-158" width="1720" height="858" key="VCS.FileHistoryDialog/1280.-258.1920.1058/0.22.1280.778@1280.-258.1920.1058" timestamp="1602022664110" />
-    <state x="303" y="171" key="Vcs.Push.Dialog.v2" timestamp="1602177910635">
+    <state x="303" y="171" key="Vcs.Push.Dialog.v2" timestamp="1602184161810">
       <screen x="0" y="22" width="1280" height="778" />
     </state>
-    <state x="303" y="171" key="Vcs.Push.Dialog.v2/1280.-258.1920.1058/0.22.1280.778@0.22.1280.778" timestamp="1602177910635" />
+    <state x="303" y="171" key="Vcs.Push.Dialog.v2/1280.-258.1920.1058/0.22.1280.778@0.22.1280.778" timestamp="1602184161810" />
     <state x="1840" y="11" key="Vcs.Push.Dialog.v2/1280.-258.1920.1058/0.22.1280.778@1280.-258.1920.1058" timestamp="1601972597092" />
     <state x="1724" y="-244" key="com.intellij.openapi.editor.actions.MultiplePasteAction$ClipboardContentChooser" timestamp="1601972168089">
       <screen x="1280" y="-258" width="1920" height="1058" />
     </state>
     <state x="296" y="32" key="com.intellij.openapi.editor.actions.MultiplePasteAction$ClipboardContentChooser/1280.-258.1920.1058/0.22.1280.778@0.22.1280.778" timestamp="1601964326069" />
     <state x="1724" y="-244" key="com.intellij.openapi.editor.actions.MultiplePasteAction$ClipboardContentChooser/1280.-258.1920.1058/0.22.1280.778@1280.-258.1920.1058" timestamp="1601972168089" />
-    <state x="1778" y="-229" width="923" height="1000" key="find.popup" timestamp="1601972107318">
-      <screen x="1280" y="-258" width="1920" height="1058" />
+    <state x="332" y="43" width="615" height="735" key="find.popup" timestamp="1602184628533">
+      <screen x="0" y="22" width="1280" height="778" />
     </state>
-    <state x="332" y="43" width="615" height="735" key="find.popup/1280.-258.1920.1058/0.22.1280.778@0.22.1280.778" timestamp="1601964556597" />
+    <state x="332" y="43" width="615" height="735" key="find.popup/1280.-258.1920.1058/0.22.1280.778@0.22.1280.778" timestamp="1602184628533" />
     <state x="1778" y="-229" width="923" height="1000" key="find.popup/1280.-258.1920.1058/0.22.1280.778@1280.-258.1920.1058" timestamp="1601972107318" />
     <state x="437" y="307" key="git4idea.remote.GitConfigureRemotesDialog" timestamp="1602111177214">
       <screen x="0" y="22" width="1280" height="778" />
