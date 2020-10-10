@@ -19,18 +19,7 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="751df467-35cd-4e9b-b142-5396eb634628" name="Default Changelist" comment="Page ManageCoursePage and route">
-      <change afterPath="$PROJECT_DIR$/../ps-redux/src/components/common/SelectInput.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../ps-redux/src/components/common/TextInput.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../ps-redux/src/components/courses/CourseForm.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../ps-redux/src/components/App.js" beforeDir="false" afterPath="$PROJECT_DIR$/../ps-redux/src/components/App.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../ps-redux/src/components/courses/CoursesPage.js" beforeDir="false" afterPath="$PROJECT_DIR$/../ps-redux/src/components/courses/CoursesPage.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../ps-redux/src/components/courses/ManageCoursePage.js" beforeDir="false" afterPath="$PROJECT_DIR$/../ps-redux/src/components/courses/ManageCoursePage.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../ps-redux/src/redux/actions/actionTypes.js" beforeDir="false" afterPath="$PROJECT_DIR$/../ps-redux/src/redux/actions/actionTypes.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../ps-redux/src/redux/actions/courseActions.js" beforeDir="false" afterPath="$PROJECT_DIR$/../ps-redux/src/redux/actions/courseActions.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../ps-redux/src/redux/reducers/courseReducer.js" beforeDir="false" afterPath="$PROJECT_DIR$/../ps-redux/src/redux/reducers/courseReducer.js" afterDir="false" />
-    </list>
+    <list default="true" id="751df467-35cd-4e9b-b142-5396eb634628" name="Default Changelist" comment="" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -96,7 +85,7 @@
       <workItem from="1601868295550" duration="7187000" />
       <workItem from="1601930928898" duration="17109000" />
       <workItem from="1602106974564" duration="24581000" />
-      <workItem from="1602179824503" duration="24805000" />
+      <workItem from="1602179824503" duration="25497000" />
     </task>
     <task id="LOCAL-00001" summary="cambios">
       <created>1601650246572</created>
@@ -189,7 +178,14 @@
       <option name="project" value="LOCAL" />
       <updated>1602185516525</updated>
     </task>
-    <option name="localTasksCounter" value="14" />
+    <task id="LOCAL-00014" summary="finalizar async writs ain redux">
+      <created>1602285006346</created>
+      <option name="number" value="00014" />
+      <option name="presentableId" value="LOCAL-00014" />
+      <option name="project" value="LOCAL" />
+      <updated>1602285006346</updated>
+    </task>
+    <option name="localTasksCounter" value="15" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -221,18 +217,19 @@
     <MESSAGE value="upload api and tool server" />
     <MESSAGE value="configuracion de redux y uso de redux al leer datos" />
     <MESSAGE value="Page ManageCoursePage and route" />
-    <option name="LAST_COMMIT_MESSAGE" value="Page ManageCoursePage and route" />
+    <MESSAGE value="finalizar async writs ain redux" />
+    <option name="LAST_COMMIT_MESSAGE" value="finalizar async writs ain redux" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="24" y="55" width="1243" height="726" key="CommitChangelistDialog2" timestamp="1602270987832">
+    <state x="24" y="55" width="1243" height="726" key="CommitChangelistDialog2" timestamp="1602285005779">
       <screen x="0" y="22" width="1280" height="778" />
     </state>
-    <state x="24" y="55" width="1243" height="726" key="CommitChangelistDialog2/1280.-258.1920.1058/0.22.1280.778@0.22.1280.778" timestamp="1602270987832" />
+    <state x="24" y="55" width="1243" height="726" key="CommitChangelistDialog2/1280.-258.1920.1058/0.22.1280.778@0.22.1280.778" timestamp="1602285005779" />
     <state x="1280" y="-258" width="1920" height="1058" key="CommitChangelistDialog2/1280.-258.1920.1058/0.22.1280.778@1280.-258.1920.1058" timestamp="1602179146066" />
-    <state x="28" y="48" width="1225" height="734" key="DiffContextDialog" timestamp="1602204353859">
+    <state x="28" y="48" width="1225" height="734" key="DiffContextDialog" timestamp="1602284959755">
       <screen x="0" y="22" width="1280" height="778" />
     </state>
-    <state x="28" y="48" width="1225" height="734" key="DiffContextDialog/1280.-258.1920.1058/0.22.1280.778@0.22.1280.778" timestamp="1602204353859" />
+    <state x="28" y="48" width="1225" height="734" key="DiffContextDialog/1280.-258.1920.1058/0.22.1280.778@0.22.1280.778" timestamp="1602284959755" />
     <state x="1286" y="-255" width="1908" height="1052" maximized="true" key="DiffContextDialog/1280.-258.1920.1058/0.22.1280.778@1280.-258.1920.1058" timestamp="1602179144804" />
     <state width="1238" height="290" key="GridCell.Tab.0.bottom" timestamp="1602178903414">
       <screen x="0" y="22" width="1280" height="778" />
@@ -273,10 +270,10 @@
     </state>
     <state x="67" y="96" width="1147" height="631" key="VCS.FileHistoryDialog/1280.-258.1920.1058/0.22.1280.778@0.22.1280.778" timestamp="1602111329000" />
     <state x="1380" y="-158" width="1720" height="858" key="VCS.FileHistoryDialog/1280.-258.1920.1058/0.22.1280.778@1280.-258.1920.1058" timestamp="1602022664110" />
-    <state x="303" y="171" key="Vcs.Push.Dialog.v2" timestamp="1602185529489">
+    <state x="303" y="171" key="Vcs.Push.Dialog.v2" timestamp="1602285041887">
       <screen x="0" y="22" width="1280" height="778" />
     </state>
-    <state x="303" y="171" key="Vcs.Push.Dialog.v2/1280.-258.1920.1058/0.22.1280.778@0.22.1280.778" timestamp="1602185529489" />
+    <state x="303" y="171" key="Vcs.Push.Dialog.v2/1280.-258.1920.1058/0.22.1280.778@0.22.1280.778" timestamp="1602285041887" />
     <state x="1840" y="11" key="Vcs.Push.Dialog.v2/1280.-258.1920.1058/0.22.1280.778@1280.-258.1920.1058" timestamp="1601972597092" />
     <state x="296" y="32" key="com.intellij.openapi.editor.actions.MultiplePasteAction$ClipboardContentChooser" timestamp="1602201297148">
       <screen x="0" y="22" width="1280" height="778" />
