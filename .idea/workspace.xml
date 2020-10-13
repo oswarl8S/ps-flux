@@ -19,7 +19,24 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="751df467-35cd-4e9b-b142-5396eb634628" name="Default Changelist" comment="" />
+    <list default="true" id="751df467-35cd-4e9b-b142-5396eb634628" name="Default Changelist" comment="finalizar async writs ain redux">
+      <change afterPath="$PROJECT_DIR$/../ps-redux/src/components/common/Spinner.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ps-redux/src/components/common/Spinner.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ps-redux/src/redux/actions/apiStatusActions.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ps-redux/src/redux/reducers/apiStatusReducer.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ps-redux/src/components/App.js" beforeDir="false" afterPath="$PROJECT_DIR$/../ps-redux/src/components/App.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ps-redux/src/components/courses/CourseList.js" beforeDir="false" afterPath="$PROJECT_DIR$/../ps-redux/src/components/courses/CourseList.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ps-redux/src/components/courses/CoursesPage.js" beforeDir="false" afterPath="$PROJECT_DIR$/../ps-redux/src/components/courses/CoursesPage.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ps-redux/src/components/courses/ManageCoursePage.js" beforeDir="false" afterPath="$PROJECT_DIR$/../ps-redux/src/components/courses/ManageCoursePage.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ps-redux/src/redux/actions/actionTypes.js" beforeDir="false" afterPath="$PROJECT_DIR$/../ps-redux/src/redux/actions/actionTypes.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ps-redux/src/redux/actions/authorActions.js" beforeDir="false" afterPath="$PROJECT_DIR$/../ps-redux/src/redux/actions/authorActions.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ps-redux/src/redux/actions/courseActions.js" beforeDir="false" afterPath="$PROJECT_DIR$/../ps-redux/src/redux/actions/courseActions.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ps-redux/src/redux/reducers/courseReducer.js" beforeDir="false" afterPath="$PROJECT_DIR$/../ps-redux/src/redux/reducers/courseReducer.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ps-redux/src/redux/reducers/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/../ps-redux/src/redux/reducers/index.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ps-redux/src/redux/reducers/initialState.js" beforeDir="false" afterPath="$PROJECT_DIR$/../ps-redux/src/redux/reducers/initialState.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ps-redux/tools/apiServer.js" beforeDir="false" afterPath="$PROJECT_DIR$/../ps-redux/tools/apiServer.js" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -49,7 +66,7 @@
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../ps-redux/src/components/common" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../ps-redux" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
     <property name="nodejs_package_manager_path" value="npm" />
@@ -66,11 +83,11 @@
       <recent name="$PROJECT_DIR$/src/components/pages/about" />
     </key>
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/../ps-redux" />
       <recent name="$PROJECT_DIR$/../ps-redux/src/components/common" />
       <recent name="$PROJECT_DIR$/../ps-redux/src/components/courses" />
       <recent name="$PROJECT_DIR$/../ps-redux/src/redux/reducers" />
       <recent name="$PROJECT_DIR$/../ps-redux/src/redux/actions" />
-      <recent name="$PROJECT_DIR$/../ps-redux/src" />
     </key>
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
@@ -85,7 +102,7 @@
       <workItem from="1601868295550" duration="7187000" />
       <workItem from="1601930928898" duration="17109000" />
       <workItem from="1602106974564" duration="24581000" />
-      <workItem from="1602179824503" duration="25497000" />
+      <workItem from="1602179824503" duration="33038000" />
     </task>
     <task id="LOCAL-00001" summary="cambios">
       <created>1601650246572</created>
@@ -185,7 +202,14 @@
       <option name="project" value="LOCAL" />
       <updated>1602285006346</updated>
     </task>
-    <option name="localTasksCounter" value="15" />
+    <task id="LOCAL-00015" summary="finalizar async writs ain redux">
+      <created>1602299772831</created>
+      <option name="number" value="00015" />
+      <option name="presentableId" value="LOCAL-00015" />
+      <option name="project" value="LOCAL" />
+      <updated>1602299772831</updated>
+    </task>
+    <option name="localTasksCounter" value="16" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -221,15 +245,17 @@
     <option name="LAST_COMMIT_MESSAGE" value="finalizar async writs ain redux" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="24" y="55" width="1243" height="726" key="CommitChangelistDialog2" timestamp="1602285005779">
+    <state x="24" y="55" width="1243" height="726" key="CommitChangelistDialog2" timestamp="1602527789864">
       <screen x="0" y="22" width="1280" height="778" />
     </state>
-    <state x="24" y="55" width="1243" height="726" key="CommitChangelistDialog2/1280.-258.1920.1058/0.22.1280.778@0.22.1280.778" timestamp="1602285005779" />
+    <state x="24" y="55" key="CommitChangelistDialog2/-1920.-258.1920.1058/0.22.1280.778@0.22.1280.778" timestamp="1602527789864" />
+    <state x="24" y="55" width="1243" height="726" key="CommitChangelistDialog2/1280.-258.1920.1058/0.22.1280.778@0.22.1280.778" timestamp="1602524664100" />
     <state x="1280" y="-258" width="1920" height="1058" key="CommitChangelistDialog2/1280.-258.1920.1058/0.22.1280.778@1280.-258.1920.1058" timestamp="1602179146066" />
-    <state x="28" y="48" width="1225" height="734" key="DiffContextDialog" timestamp="1602284959755">
+    <state x="28" y="48" width="1225" height="734" key="DiffContextDialog" timestamp="1602527789644">
       <screen x="0" y="22" width="1280" height="778" />
     </state>
-    <state x="28" y="48" width="1225" height="734" key="DiffContextDialog/1280.-258.1920.1058/0.22.1280.778@0.22.1280.778" timestamp="1602284959755" />
+    <state x="28" y="48" key="DiffContextDialog/-1920.-258.1920.1058/0.22.1280.778@0.22.1280.778" timestamp="1602527789644" />
+    <state x="28" y="48" width="1225" height="734" key="DiffContextDialog/1280.-258.1920.1058/0.22.1280.778@0.22.1280.778" timestamp="1602524663621" />
     <state x="1286" y="-255" width="1908" height="1052" maximized="true" key="DiffContextDialog/1280.-258.1920.1058/0.22.1280.778@1280.-258.1920.1058" timestamp="1602179144804" />
     <state width="1238" height="290" key="GridCell.Tab.0.bottom" timestamp="1602178903414">
       <screen x="0" y="22" width="1280" height="778" />
@@ -270,19 +296,20 @@
     </state>
     <state x="67" y="96" width="1147" height="631" key="VCS.FileHistoryDialog/1280.-258.1920.1058/0.22.1280.778@0.22.1280.778" timestamp="1602111329000" />
     <state x="1380" y="-158" width="1720" height="858" key="VCS.FileHistoryDialog/1280.-258.1920.1058/0.22.1280.778@1280.-258.1920.1058" timestamp="1602022664110" />
-    <state x="303" y="171" key="Vcs.Push.Dialog.v2" timestamp="1602285041887">
+    <state x="303" y="171" key="Vcs.Push.Dialog.v2" timestamp="1602299778921">
       <screen x="0" y="22" width="1280" height="778" />
     </state>
-    <state x="303" y="171" key="Vcs.Push.Dialog.v2/1280.-258.1920.1058/0.22.1280.778@0.22.1280.778" timestamp="1602285041887" />
+    <state x="303" y="171" key="Vcs.Push.Dialog.v2/1280.-258.1920.1058/0.22.1280.778@0.22.1280.778" timestamp="1602299778921" />
     <state x="1840" y="11" key="Vcs.Push.Dialog.v2/1280.-258.1920.1058/0.22.1280.778@1280.-258.1920.1058" timestamp="1601972597092" />
     <state x="296" y="32" key="com.intellij.openapi.editor.actions.MultiplePasteAction$ClipboardContentChooser" timestamp="1602201297148">
       <screen x="0" y="22" width="1280" height="778" />
     </state>
     <state x="296" y="32" key="com.intellij.openapi.editor.actions.MultiplePasteAction$ClipboardContentChooser/1280.-258.1920.1058/0.22.1280.778@0.22.1280.778" timestamp="1602201297148" />
     <state x="1724" y="-244" key="com.intellij.openapi.editor.actions.MultiplePasteAction$ClipboardContentChooser/1280.-258.1920.1058/0.22.1280.778@1280.-258.1920.1058" timestamp="1601972168089" />
-    <state x="332" y="43" width="615" height="735" key="find.popup" timestamp="1602200883265">
+    <state x="332" y="43" width="629" height="735" key="find.popup" timestamp="1602548819153">
       <screen x="0" y="22" width="1280" height="778" />
     </state>
+    <state x="332" y="43" width="629" height="735" key="find.popup/-1920.-258.1920.1058/0.22.1280.778@0.22.1280.778" timestamp="1602548819153" />
     <state x="332" y="43" width="615" height="735" key="find.popup/1280.-258.1920.1058/0.22.1280.778@0.22.1280.778" timestamp="1602200883265" />
     <state x="1778" y="-229" width="923" height="1000" key="find.popup/1280.-258.1920.1058/0.22.1280.778@1280.-258.1920.1058" timestamp="1601972107318" />
     <state x="437" y="307" key="git4idea.remote.GitConfigureRemotesDialog" timestamp="1602111177214">
