@@ -20,38 +20,18 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="751df467-35cd-4e9b-b142-5396eb634628" name="Default Changelist" comment="curso">
-      <change afterPath="$PROJECT_DIR$/../ps-redux/src/components/authors/AuthorForm.Enzyme.test.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../ps-redux/src/components/authors/AuthorForm.ReactTestingLibrary.test.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../ps-redux/src/components/authors/AuthorForm.Snapshots.test.js" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/../ps-redux/src/components/authors/AuthorForm.js" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/../ps-redux/src/components/authors/AuthorList.js" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/../ps-redux/src/components/authors/AuthorPage.js" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/../ps-redux/src/components/authors/ManageAuthorPage.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../ps-redux/src/components/authors/ManageAuthorPage.test.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../ps-redux/src/components/authors/__snapshots__/AuthorForm.Snapshots.test.js.snap" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../ps-redux/src/components/common/Header.test.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../ps-redux/src/components/courses/CourseForm.Enzyme.test.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../ps-redux/src/components/courses/CourseForm.ReactTestingLibrary.test.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../ps-redux/src/components/courses/CourseForm.Snapshots.test.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../ps-redux/src/components/courses/ManageCoursePage.test.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../ps-redux/src/components/courses/__snapshots__/CourseForm.Snapshots.test.js.snap" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../ps-redux/src/index.test.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../ps-redux/src/redux/actions/courseActions.test.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../ps-redux/src/redux/configureStore.dev.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../ps-redux/src/redux/configureStore.prod.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../ps-redux/src/redux/reducers/courseReducer.test.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../ps-redux/src/redux/store.test.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../ps-redux/tools/fileMock.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../ps-redux/tools/styleMock.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../ps-redux/tools/testSetup.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../ps-redux/webpack.config.prod.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../ps-redux/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/../ps-redux/package.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../ps-redux/src/api/authorApi.js" beforeDir="false" afterPath="$PROJECT_DIR$/../ps-redux/src/api/authorApi.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../ps-redux/src/api/courseApi.js" beforeDir="false" afterPath="$PROJECT_DIR$/../ps-redux/src/api/courseApi.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../ps-redux/src/components/App.js" beforeDir="false" afterPath="$PROJECT_DIR$/../ps-redux/src/components/App.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../ps-redux/src/components/courses/ManageCoursePage.js" beforeDir="false" afterPath="$PROJECT_DIR$/../ps-redux/src/components/courses/ManageCoursePage.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../ps-redux/src/redux/configureStore.js" beforeDir="false" afterPath="$PROJECT_DIR$/../ps-redux/src/redux/configureStore.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ps-redux/src/components/common/Header.js" beforeDir="false" afterPath="$PROJECT_DIR$/../ps-redux/src/components/common/Header.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ps-redux/src/redux/actions/actionTypes.js" beforeDir="false" afterPath="$PROJECT_DIR$/../ps-redux/src/redux/actions/actionTypes.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ps-redux/src/redux/actions/authorActions.js" beforeDir="false" afterPath="$PROJECT_DIR$/../ps-redux/src/redux/actions/authorActions.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ps-redux/src/redux/reducers/authorReducer.js" beforeDir="false" afterPath="$PROJECT_DIR$/../ps-redux/src/redux/reducers/authorReducer.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ps-redux/tools/mockData.js" beforeDir="false" afterPath="$PROJECT_DIR$/../ps-redux/tools/mockData.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -118,7 +98,7 @@
       <workItem from="1601868295550" duration="7187000" />
       <workItem from="1601930928898" duration="17109000" />
       <workItem from="1602106974564" duration="24581000" />
-      <workItem from="1602179824503" duration="37014000" />
+      <workItem from="1602179824503" duration="49634000" />
     </task>
     <task id="LOCAL-00001" summary="cambios">
       <created>1601650246572</created>
@@ -232,11 +212,28 @@
       <option name="project" value="LOCAL" />
       <updated>1602549316543</updated>
     </task>
-    <option name="localTasksCounter" value="17" />
+    <task id="LOCAL-00017" summary="fin curso redux">
+      <created>1602599875675</created>
+      <option name="number" value="00017" />
+      <option name="presentableId" value="LOCAL-00017" />
+      <option name="project" value="LOCAL" />
+      <updated>1602599875675</updated>
+    </task>
+    <option name="localTasksCounter" value="18" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
+  </component>
+  <component name="Vcs.Log.History.Properties">
+    <option name="COLUMN_ORDER">
+      <list>
+        <option value="0" />
+        <option value="2" />
+        <option value="3" />
+        <option value="1" />
+      </list>
+    </option>
   </component>
   <component name="Vcs.Log.Tabs.Properties">
     <option name="TAB_STATES">
@@ -266,19 +263,21 @@
     <MESSAGE value="Page ManageCoursePage and route" />
     <MESSAGE value="finalizar async writs ain redux" />
     <MESSAGE value="curso" />
-    <option name="LAST_COMMIT_MESSAGE" value="curso" />
+    <MESSAGE value="fin curso redux" />
+    <option name="LAST_COMMIT_MESSAGE" value="fin curso redux" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="0" y="22" width="1280" height="778" key="CommitChangelistDialog2" timestamp="1602599416278">
+    <state x="0" y="22" width="1280" height="778" key="CommitChangelistDialog2" timestamp="1602599875054">
       <screen x="0" y="22" width="1280" height="778" />
     </state>
-    <state x="0" y="22" width="1280" height="778" key="CommitChangelistDialog2/-1920.-258.1920.1058/0.22.1280.778@0.22.1280.778" timestamp="1602599416278" />
+    <state x="0" y="22" width="1280" height="778" key="CommitChangelistDialog2/-1920.-258.1920.1058/0.22.1280.778@0.22.1280.778" timestamp="1602599875054" />
     <state x="24" y="55" width="1243" height="726" key="CommitChangelistDialog2/1280.-258.1920.1058/0.22.1280.778@0.22.1280.778" timestamp="1602524664100" />
     <state x="1280" y="-258" width="1920" height="1058" key="CommitChangelistDialog2/1280.-258.1920.1058/0.22.1280.778@1280.-258.1920.1058" timestamp="1602179146066" />
-    <state x="0" y="22" width="1280" height="778" key="DiffContextDialog" timestamp="1602599415955">
-      <screen x="0" y="22" width="1280" height="778" />
+    <state x="-1920" y="-258" width="1920" height="1058" key="DiffContextDialog" timestamp="1602643011053">
+      <screen x="-1920" y="-258" width="1920" height="1058" />
     </state>
-    <state x="0" y="22" width="1280" height="778" key="DiffContextDialog/-1920.-258.1920.1058/0.22.1280.778@0.22.1280.778" timestamp="1602599415955" />
+    <state x="-1920" y="-258" width="1920" height="1058" key="DiffContextDialog/-1920.-258.1920.1058/0.22.1280.778@-1920.-258.1920.1058" timestamp="1602643011053" />
+    <state x="0" y="22" width="1280" height="778" key="DiffContextDialog/-1920.-258.1920.1058/0.22.1280.778@0.22.1280.778" timestamp="1602633371025" />
     <state x="28" y="48" width="1225" height="734" key="DiffContextDialog/1280.-258.1920.1058/0.22.1280.778@0.22.1280.778" timestamp="1602524663621" />
     <state x="1286" y="-255" width="1908" height="1052" maximized="true" key="DiffContextDialog/1280.-258.1920.1058/0.22.1280.778@1280.-258.1920.1058" timestamp="1602179144804" />
     <state width="1238" height="290" key="GridCell.Tab.0.bottom" timestamp="1602178903414">
@@ -306,24 +305,27 @@
     </state>
     <state x="477" y="197" key="RollbackChangesDialog/1280.-258.1920.1058/0.22.1280.778@0.22.1280.778" timestamp="1602179917415" />
     <state x="1996" y="-20" key="RollbackChangesDialog/1280.-258.1920.1058/0.22.1280.778@1280.-258.1920.1058" timestamp="1601659393516" />
-    <state x="1741" y="-90" key="SettingsEditor" timestamp="1601969228693">
-      <screen x="1280" y="-258" width="1920" height="1058" />
+    <state x="123" y="56" key="SettingsEditor" timestamp="1602633164924">
+      <screen x="0" y="22" width="1280" height="778" />
     </state>
+    <state x="123" y="56" key="SettingsEditor/-1920.-258.1920.1058/0.22.1280.778@0.22.1280.778" timestamp="1602633164924" />
     <state x="283" y="78" key="SettingsEditor/1280.-258.1920.1058/0.22.1280.778@0.22.1280.778" timestamp="1601964036656" />
     <state x="1741" y="-90" key="SettingsEditor/1280.-258.1920.1058/0.22.1280.778@1280.-258.1920.1058" timestamp="1601969228693" />
     <state x="2090" y="193" key="VCS.ChangelistChooser" timestamp="1601651080332">
       <screen x="1280" y="-258" width="1920" height="1058" />
     </state>
     <state x="2090" y="193" key="VCS.ChangelistChooser/1280.-258.1920.1058/0.22.1280.778@1280.-258.1920.1058" timestamp="1601651080332" />
-    <state x="67" y="96" width="1147" height="631" key="VCS.FileHistoryDialog" timestamp="1602111329000">
-      <screen x="0" y="22" width="1280" height="778" />
+    <state x="-1819" y="-157" width="1721" height="859" key="VCS.FileHistoryDialog" timestamp="1602643011054">
+      <screen x="-1920" y="-258" width="1920" height="1058" />
     </state>
+    <state x="-1819" y="-157" width="1721" height="859" key="VCS.FileHistoryDialog/-1920.-258.1920.1058/0.22.1280.778@-1920.-258.1920.1058" timestamp="1602643011054" />
+    <state x="67" y="96" width="1147" height="631" key="VCS.FileHistoryDialog/-1920.-258.1920.1058/0.22.1280.778@0.22.1280.778" timestamp="1602633371026" />
     <state x="67" y="96" width="1147" height="631" key="VCS.FileHistoryDialog/1280.-258.1920.1058/0.22.1280.778@0.22.1280.778" timestamp="1602111329000" />
     <state x="1380" y="-158" width="1720" height="858" key="VCS.FileHistoryDialog/1280.-258.1920.1058/0.22.1280.778@1280.-258.1920.1058" timestamp="1602022664110" />
-    <state x="303" y="171" key="Vcs.Push.Dialog.v2" timestamp="1602549340298">
+    <state x="303" y="171" key="Vcs.Push.Dialog.v2" timestamp="1602599885859">
       <screen x="0" y="22" width="1280" height="778" />
     </state>
-    <state x="303" y="171" key="Vcs.Push.Dialog.v2/-1920.-258.1920.1058/0.22.1280.778@0.22.1280.778" timestamp="1602549340298" />
+    <state x="303" y="171" key="Vcs.Push.Dialog.v2/-1920.-258.1920.1058/0.22.1280.778@0.22.1280.778" timestamp="1602599885859" />
     <state x="303" y="171" key="Vcs.Push.Dialog.v2/1280.-258.1920.1058/0.22.1280.778@0.22.1280.778" timestamp="1602299778921" />
     <state x="1840" y="11" key="Vcs.Push.Dialog.v2/1280.-258.1920.1058/0.22.1280.778@1280.-258.1920.1058" timestamp="1601972597092" />
     <state x="296" y="32" key="com.intellij.openapi.editor.actions.MultiplePasteAction$ClipboardContentChooser" timestamp="1602201297148">
@@ -331,9 +333,10 @@
     </state>
     <state x="296" y="32" key="com.intellij.openapi.editor.actions.MultiplePasteAction$ClipboardContentChooser/1280.-258.1920.1058/0.22.1280.778@0.22.1280.778" timestamp="1602201297148" />
     <state x="1724" y="-244" key="com.intellij.openapi.editor.actions.MultiplePasteAction$ClipboardContentChooser/1280.-258.1920.1058/0.22.1280.778@1280.-258.1920.1058" timestamp="1601972168089" />
-    <state x="332" y="43" width="629" height="735" key="find.popup" timestamp="1602548819153">
-      <screen x="0" y="22" width="1280" height="778" />
+    <state x="-1422" y="-229" width="944" height="1000" key="find.popup" timestamp="1602642191596">
+      <screen x="-1920" y="-258" width="1920" height="1058" />
     </state>
+    <state x="-1422" y="-229" width="944" height="1000" key="find.popup/-1920.-258.1920.1058/0.22.1280.778@-1920.-258.1920.1058" timestamp="1602642191596" />
     <state x="332" y="43" width="629" height="735" key="find.popup/-1920.-258.1920.1058/0.22.1280.778@0.22.1280.778" timestamp="1602548819153" />
     <state x="332" y="43" width="615" height="735" key="find.popup/1280.-258.1920.1058/0.22.1280.778@0.22.1280.778" timestamp="1602200883265" />
     <state x="1778" y="-229" width="923" height="1000" key="find.popup/1280.-258.1920.1058/0.22.1280.778@1280.-258.1920.1058" timestamp="1601972107318" />
