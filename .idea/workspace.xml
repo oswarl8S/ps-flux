@@ -16,22 +16,22 @@
         <item name="GROUP_NODE:origin" type="e8cecc67:BranchNodeDescriptor" />
       </path>
     </expand>
-    <select />
+    <select>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="GROUP_NODE:origin" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="BRANCH:origin/main" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+    </select>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="751df467-35cd-4e9b-b142-5396eb634628" name="Default Changelist" comment="curso">
-      <change afterPath="$PROJECT_DIR$/../ps-redux/src/components/authors/AuthorForm.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../ps-redux/src/components/authors/AuthorList.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../ps-redux/src/components/authors/AuthorPage.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../ps-redux/src/components/authors/ManageAuthorPage.js" afterDir="false" />
+    <list default="true" id="751df467-35cd-4e9b-b142-5396eb634628" name="Default Changelist" comment="curso redux finalizado, implementar redux al modulo de autores">
+      <change afterPath="$PROJECT_DIR$/../ps-auth0/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/ps-flux.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/ps-flux.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../ps-redux/src/api/authorApi.js" beforeDir="false" afterPath="$PROJECT_DIR$/../ps-redux/src/api/authorApi.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../ps-redux/src/components/App.js" beforeDir="false" afterPath="$PROJECT_DIR$/../ps-redux/src/components/App.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../ps-redux/src/components/common/Header.js" beforeDir="false" afterPath="$PROJECT_DIR$/../ps-redux/src/components/common/Header.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../ps-redux/src/redux/actions/actionTypes.js" beforeDir="false" afterPath="$PROJECT_DIR$/../ps-redux/src/redux/actions/actionTypes.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../ps-redux/src/redux/actions/authorActions.js" beforeDir="false" afterPath="$PROJECT_DIR$/../ps-redux/src/redux/actions/authorActions.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../ps-redux/src/redux/reducers/authorReducer.js" beforeDir="false" afterPath="$PROJECT_DIR$/../ps-redux/src/redux/reducers/authorReducer.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../ps-redux/tools/mockData.js" beforeDir="false" afterPath="$PROJECT_DIR$/../ps-redux/tools/mockData.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -49,7 +49,7 @@
     </option>
   </component>
   <component name="Git.Settings">
-    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/../ps-redux" />
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/../ps-auth0" />
   </component>
   <component name="ProjectId" id="1iKJ1hlSSvTGI6HGPrdKcTVFEhz" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
@@ -98,7 +98,7 @@
       <workItem from="1601868295550" duration="7187000" />
       <workItem from="1601930928898" duration="17109000" />
       <workItem from="1602106974564" duration="24581000" />
-      <workItem from="1602179824503" duration="49634000" />
+      <workItem from="1602179824503" duration="51689000" />
     </task>
     <task id="LOCAL-00001" summary="cambios">
       <created>1601650246572</created>
@@ -219,7 +219,14 @@
       <option name="project" value="LOCAL" />
       <updated>1602599875675</updated>
     </task>
-    <option name="localTasksCounter" value="18" />
+    <task id="LOCAL-00018" summary="curso redux finalizado, implementar redux al modulo de autores">
+      <created>1602644211236</created>
+      <option name="number" value="00018" />
+      <option name="presentableId" value="LOCAL-00018" />
+      <option name="project" value="LOCAL" />
+      <updated>1602644211236</updated>
+    </task>
+    <option name="localTasksCounter" value="19" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -240,7 +247,26 @@
       <map>
         <entry key="MAIN">
           <value>
-            <State />
+            <State>
+              <option name="FILTERS">
+                <map>
+                  <entry key="branch">
+                    <value>
+                      <list>
+                        <option value="origin/main" />
+                      </list>
+                    </value>
+                  </entry>
+                  <entry key="roots">
+                    <value>
+                      <list>
+                        <option value="$PROJECT_DIR$/../ps-auth0" />
+                      </list>
+                    </value>
+                  </entry>
+                </map>
+              </option>
+            </State>
           </value>
         </entry>
       </map>
@@ -264,19 +290,21 @@
     <MESSAGE value="finalizar async writs ain redux" />
     <MESSAGE value="curso" />
     <MESSAGE value="fin curso redux" />
-    <option name="LAST_COMMIT_MESSAGE" value="fin curso redux" />
+    <MESSAGE value="curso redux finalizado, implementar redux al modulo de autores" />
+    <option name="LAST_COMMIT_MESSAGE" value="curso redux finalizado, implementar redux al modulo de autores" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="0" y="22" width="1280" height="778" key="CommitChangelistDialog2" timestamp="1602599875054">
-      <screen x="0" y="22" width="1280" height="778" />
+    <state x="-1453" y="-61" width="1280" height="778" key="CommitChangelistDialog2" timestamp="1602685420376">
+      <screen x="-1920" y="-258" width="1920" height="1058" />
     </state>
+    <state x="-1453" y="-61" key="CommitChangelistDialog2/-1920.-258.1920.1058/0.22.1280.778@-1920.-258.1920.1058" timestamp="1602685420376" />
     <state x="0" y="22" width="1280" height="778" key="CommitChangelistDialog2/-1920.-258.1920.1058/0.22.1280.778@0.22.1280.778" timestamp="1602599875054" />
     <state x="24" y="55" width="1243" height="726" key="CommitChangelistDialog2/1280.-258.1920.1058/0.22.1280.778@0.22.1280.778" timestamp="1602524664100" />
     <state x="1280" y="-258" width="1920" height="1058" key="CommitChangelistDialog2/1280.-258.1920.1058/0.22.1280.778@1280.-258.1920.1058" timestamp="1602179146066" />
-    <state x="-1920" y="-258" width="1920" height="1058" key="DiffContextDialog" timestamp="1602643011053">
+    <state x="-1920" y="-258" width="1920" height="1058" key="DiffContextDialog" timestamp="1602644459864">
       <screen x="-1920" y="-258" width="1920" height="1058" />
     </state>
-    <state x="-1920" y="-258" width="1920" height="1058" key="DiffContextDialog/-1920.-258.1920.1058/0.22.1280.778@-1920.-258.1920.1058" timestamp="1602643011053" />
+    <state x="-1920" y="-258" width="1920" height="1058" key="DiffContextDialog/-1920.-258.1920.1058/0.22.1280.778@-1920.-258.1920.1058" timestamp="1602644459864" />
     <state x="0" y="22" width="1280" height="778" key="DiffContextDialog/-1920.-258.1920.1058/0.22.1280.778@0.22.1280.778" timestamp="1602633371025" />
     <state x="28" y="48" width="1225" height="734" key="DiffContextDialog/1280.-258.1920.1058/0.22.1280.778@0.22.1280.778" timestamp="1602524663621" />
     <state x="1286" y="-255" width="1908" height="1052" maximized="true" key="DiffContextDialog/1280.-258.1920.1058/0.22.1280.778@1280.-258.1920.1058" timestamp="1602179144804" />
@@ -315,16 +343,17 @@
       <screen x="1280" y="-258" width="1920" height="1058" />
     </state>
     <state x="2090" y="193" key="VCS.ChangelistChooser/1280.-258.1920.1058/0.22.1280.778@1280.-258.1920.1058" timestamp="1601651080332" />
-    <state x="-1819" y="-157" width="1721" height="859" key="VCS.FileHistoryDialog" timestamp="1602643011054">
+    <state x="-1819" y="-157" width="1721" height="859" key="VCS.FileHistoryDialog" timestamp="1602644452996">
       <screen x="-1920" y="-258" width="1920" height="1058" />
     </state>
-    <state x="-1819" y="-157" width="1721" height="859" key="VCS.FileHistoryDialog/-1920.-258.1920.1058/0.22.1280.778@-1920.-258.1920.1058" timestamp="1602643011054" />
+    <state x="-1819" y="-157" width="1721" height="859" key="VCS.FileHistoryDialog/-1920.-258.1920.1058/0.22.1280.778@-1920.-258.1920.1058" timestamp="1602644452996" />
     <state x="67" y="96" width="1147" height="631" key="VCS.FileHistoryDialog/-1920.-258.1920.1058/0.22.1280.778@0.22.1280.778" timestamp="1602633371026" />
     <state x="67" y="96" width="1147" height="631" key="VCS.FileHistoryDialog/1280.-258.1920.1058/0.22.1280.778@0.22.1280.778" timestamp="1602111329000" />
     <state x="1380" y="-158" width="1720" height="858" key="VCS.FileHistoryDialog/1280.-258.1920.1058/0.22.1280.778@1280.-258.1920.1058" timestamp="1602022664110" />
-    <state x="303" y="171" key="Vcs.Push.Dialog.v2" timestamp="1602599885859">
-      <screen x="0" y="22" width="1280" height="778" />
+    <state x="-1465" y="-55" key="Vcs.Push.Dialog.v2" timestamp="1602685413458">
+      <screen x="-1920" y="-258" width="1920" height="1058" />
     </state>
+    <state x="-1465" y="-55" key="Vcs.Push.Dialog.v2/-1920.-258.1920.1058/0.22.1280.778@-1920.-258.1920.1058" timestamp="1602685413458" />
     <state x="303" y="171" key="Vcs.Push.Dialog.v2/-1920.-258.1920.1058/0.22.1280.778@0.22.1280.778" timestamp="1602599885859" />
     <state x="303" y="171" key="Vcs.Push.Dialog.v2/1280.-258.1920.1058/0.22.1280.778@0.22.1280.778" timestamp="1602299778921" />
     <state x="1840" y="11" key="Vcs.Push.Dialog.v2/1280.-258.1920.1058/0.22.1280.778@1280.-258.1920.1058" timestamp="1601972597092" />
@@ -340,9 +369,10 @@
     <state x="332" y="43" width="629" height="735" key="find.popup/-1920.-258.1920.1058/0.22.1280.778@0.22.1280.778" timestamp="1602548819153" />
     <state x="332" y="43" width="615" height="735" key="find.popup/1280.-258.1920.1058/0.22.1280.778@0.22.1280.778" timestamp="1602200883265" />
     <state x="1778" y="-229" width="923" height="1000" key="find.popup/1280.-258.1920.1058/0.22.1280.778@1280.-258.1920.1058" timestamp="1601972107318" />
-    <state x="437" y="307" key="git4idea.remote.GitConfigureRemotesDialog" timestamp="1602111177214">
-      <screen x="0" y="22" width="1280" height="778" />
+    <state x="-1264" y="130" key="git4idea.remote.GitConfigureRemotesDialog" timestamp="1602685251040">
+      <screen x="-1920" y="-258" width="1920" height="1058" />
     </state>
+    <state x="-1264" y="130" key="git4idea.remote.GitConfigureRemotesDialog/-1920.-258.1920.1058/0.22.1280.778@-1920.-258.1920.1058" timestamp="1602685251040" />
     <state x="437" y="307" key="git4idea.remote.GitConfigureRemotesDialog/1280.-258.1920.1058/0.22.1280.778@0.22.1280.778" timestamp="1602111177214" />
     <state x="305" y="185" key="run.anything.popup" timestamp="1601948263907">
       <screen x="0" y="22" width="1280" height="778" />
