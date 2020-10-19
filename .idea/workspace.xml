@@ -25,10 +25,10 @@
     </select>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="751df467-35cd-4e9b-b142-5396eb634628" name="Default Changelist" comment="autentificacion">
+    <list default="true" id="751df467-35cd-4e9b-b142-5396eb634628" name="Default Changelist" comment="new project scalable">
+      <change beforePath="$PROJECT_DIR$/.idea/codeStyles/codeStyleConfig.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/codeStyles/codeStyleConfig.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../scalable-react/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/../scalable-react/package.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../scalable-react/yarn.lock" beforeDir="false" afterPath="$PROJECT_DIR$/../scalable-react/yarn.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../scalable-react/app/containers/App/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/../scalable-react/app/containers/App/index.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -107,7 +107,7 @@
       <workItem from="1602689530186" duration="21538000" />
       <workItem from="1602980842613" duration="74000" />
       <workItem from="1602984388397" duration="779000" />
-      <workItem from="1603118937740" duration="11675000" />
+      <workItem from="1603118937740" duration="15203000" />
     </task>
     <task id="LOCAL-00001" summary="cambios">
       <created>1601650246572</created>
@@ -270,7 +270,14 @@
       <option name="project" value="LOCAL" />
       <updated>1602809934304</updated>
     </task>
-    <option name="localTasksCounter" value="24" />
+    <task id="LOCAL-00024" summary="new project scalable">
+      <created>1603146167526</created>
+      <option name="number" value="00024" />
+      <option name="presentableId" value="LOCAL-00024" />
+      <option name="project" value="LOCAL" />
+      <updated>1603146167526</updated>
+    </task>
+    <option name="localTasksCounter" value="25" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -304,7 +311,7 @@
                   <entry key="roots">
                     <value>
                       <list>
-                        <option value="$PROJECT_DIR$/../ps-auth0" />
+                        <option value="$PROJECT_DIR$/../scalable-react" />
                       </list>
                     </value>
                   </entry>
@@ -338,27 +345,28 @@
     <MESSAGE value="new project" />
     <MESSAGE value="logout" />
     <MESSAGE value="autentificacion" />
-    <option name="LAST_COMMIT_MESSAGE" value="autentificacion" />
+    <MESSAGE value="new project scalable" />
+    <option name="LAST_COMMIT_MESSAGE" value="new project scalable" />
   </component>
   <component name="WindowStateProjectService">
     <state x="1833" y="-9" key="#com.intellij.openapi.updateSettings.impl.PluginUpdateInfoDialog" timestamp="1602980848938">
       <screen x="1280" y="-258" width="1920" height="1015" />
     </state>
     <state x="1833" y="-9" key="#com.intellij.openapi.updateSettings.impl.PluginUpdateInfoDialog/1280.-258.1920.1015/0.22.1280.778@1280.-258.1920.1015" timestamp="1602980848938" />
-    <state x="-1453" y="-61" width="1280" height="778" key="CommitChangelistDialog2" timestamp="1602812645534">
-      <screen x="-1920" y="-258" width="1920" height="1058" />
+    <state x="1280" y="-258" width="1280" height="778" key="CommitChangelistDialog2" timestamp="1603149812049">
+      <screen x="1280" y="-258" width="1920" height="1058" />
     </state>
     <state x="-1453" y="-61" key="CommitChangelistDialog2/-1920.-258.1920.1058/0.22.1280.778@-1920.-258.1920.1058" timestamp="1602812645534" />
     <state x="0" y="22" width="1280" height="778" key="CommitChangelistDialog2/-1920.-258.1920.1058/0.22.1280.778@0.22.1280.778" timestamp="1602599875054" />
     <state x="24" y="55" width="1243" height="726" key="CommitChangelistDialog2/1280.-258.1920.1058/0.22.1280.778@0.22.1280.778" timestamp="1602524664100" />
-    <state x="1280" y="-258" width="1920" height="1058" key="CommitChangelistDialog2/1280.-258.1920.1058/0.22.1280.778@1280.-258.1920.1058" timestamp="1602179146066" />
-    <state x="-1920" y="-258" width="1920" height="1058" key="DiffContextDialog" timestamp="1602809931804">
-      <screen x="-1920" y="-258" width="1920" height="1058" />
+    <state x="1280" y="-258" width="1920" height="1058" key="CommitChangelistDialog2/1280.-258.1920.1058/0.22.1280.778@1280.-258.1920.1058" timestamp="1603149812049" />
+    <state x="1286" y="-255" width="1920" height="1058" key="DiffContextDialog" timestamp="1603149565378">
+      <screen x="1280" y="-258" width="1920" height="1058" />
     </state>
     <state x="-1920" y="-258" width="1920" height="1058" key="DiffContextDialog/-1920.-258.1920.1058/0.22.1280.778@-1920.-258.1920.1058" timestamp="1602809931804" />
     <state x="0" y="22" width="1280" height="778" key="DiffContextDialog/-1920.-258.1920.1058/0.22.1280.778@0.22.1280.778" timestamp="1602633371025" />
     <state x="28" y="48" width="1225" height="734" key="DiffContextDialog/1280.-258.1920.1058/0.22.1280.778@0.22.1280.778" timestamp="1602524663621" />
-    <state x="1286" y="-255" width="1908" height="1052" maximized="true" key="DiffContextDialog/1280.-258.1920.1058/0.22.1280.778@1280.-258.1920.1058" timestamp="1602179144804" />
+    <state x="1286" y="-255" width="1908" height="1052" maximized="true" key="DiffContextDialog/1280.-258.1920.1058/0.22.1280.778@1280.-258.1920.1058" timestamp="1603149565378" />
     <state width="1878" height="419" key="GridCell.Tab.0.bottom" timestamp="1602694064592">
       <screen x="-1920" y="-258" width="1920" height="1058" />
     </state>
@@ -407,13 +415,13 @@
     <state x="67" y="96" width="1147" height="631" key="VCS.FileHistoryDialog/-1920.-258.1920.1058/0.22.1280.778@0.22.1280.778" timestamp="1602633371026" />
     <state x="67" y="96" width="1147" height="631" key="VCS.FileHistoryDialog/1280.-258.1920.1058/0.22.1280.778@0.22.1280.778" timestamp="1602111329000" />
     <state x="1380" y="-158" width="1720" height="858" key="VCS.FileHistoryDialog/1280.-258.1920.1058/0.22.1280.778@1280.-258.1920.1058" timestamp="1602022664110" />
-    <state x="-1465" y="-55" key="Vcs.Push.Dialog.v2" timestamp="1602809964943">
-      <screen x="-1920" y="-258" width="1920" height="1058" />
+    <state x="1840" y="11" key="Vcs.Push.Dialog.v2" timestamp="1603146174475">
+      <screen x="1280" y="-258" width="1920" height="1058" />
     </state>
     <state x="-1465" y="-55" key="Vcs.Push.Dialog.v2/-1920.-258.1920.1058/0.22.1280.778@-1920.-258.1920.1058" timestamp="1602809964943" />
     <state x="303" y="171" key="Vcs.Push.Dialog.v2/-1920.-258.1920.1058/0.22.1280.778@0.22.1280.778" timestamp="1602599885859" />
     <state x="303" y="171" key="Vcs.Push.Dialog.v2/1280.-258.1920.1058/0.22.1280.778@0.22.1280.778" timestamp="1602299778921" />
-    <state x="1840" y="11" key="Vcs.Push.Dialog.v2/1280.-258.1920.1058/0.22.1280.778@1280.-258.1920.1058" timestamp="1601972597092" />
+    <state x="1840" y="11" key="Vcs.Push.Dialog.v2/1280.-258.1920.1058/0.22.1280.778@1280.-258.1920.1058" timestamp="1603146174475" />
     <state x="-1476" y="-244" key="com.intellij.openapi.editor.actions.MultiplePasteAction$ClipboardContentChooser" timestamp="1602807118538">
       <screen x="-1920" y="-258" width="1920" height="1058" />
     </state>
@@ -427,11 +435,12 @@
     <state x="332" y="43" width="629" height="735" key="find.popup/-1920.-258.1920.1058/0.22.1280.778@0.22.1280.778" timestamp="1602548819153" />
     <state x="332" y="43" width="615" height="735" key="find.popup/1280.-258.1920.1058/0.22.1280.778@0.22.1280.778" timestamp="1602200883265" />
     <state x="1778" y="-229" width="923" height="1000" key="find.popup/1280.-258.1920.1058/0.22.1280.778@1280.-258.1920.1058" timestamp="1601972107318" />
-    <state x="-1264" y="130" key="git4idea.remote.GitConfigureRemotesDialog" timestamp="1602685251040">
-      <screen x="-1920" y="-258" width="1920" height="1058" />
+    <state x="1936" y="130" key="git4idea.remote.GitConfigureRemotesDialog" timestamp="1603146070475">
+      <screen x="1280" y="-258" width="1920" height="1058" />
     </state>
     <state x="-1264" y="130" key="git4idea.remote.GitConfigureRemotesDialog/-1920.-258.1920.1058/0.22.1280.778@-1920.-258.1920.1058" timestamp="1602685251040" />
     <state x="437" y="307" key="git4idea.remote.GitConfigureRemotesDialog/1280.-258.1920.1058/0.22.1280.778@0.22.1280.778" timestamp="1602111177214" />
+    <state x="1936" y="130" key="git4idea.remote.GitConfigureRemotesDialog/1280.-258.1920.1058/0.22.1280.778@1280.-258.1920.1058" timestamp="1603146070475" />
     <state x="305" y="185" key="run.anything.popup" timestamp="1601948263907">
       <screen x="0" y="22" width="1280" height="778" />
     </state>
