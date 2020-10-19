@@ -6,5 +6,6 @@
     <orderEntry type="sourceFolder" forTests="false" />
     <orderEntry type="module" module-name="ps-redux" />
     <orderEntry type="module" module-name="ps-auth0" />
+    <orderEntry type="module" module-name="scalable-react" />
   </component>
 </module>

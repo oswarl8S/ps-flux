@@ -5,6 +5,7 @@
       <module fileurl="file://$PROJECT_DIR$/../ps-auth0/.idea/ps-auth0.iml" filepath="$PROJECT_DIR$/../ps-auth0/.idea/ps-auth0.iml" />
       <module fileurl="file://$PROJECT_DIR$/.idea/ps-flux.iml" filepath="$PROJECT_DIR$/.idea/ps-flux.iml" />
       <module fileurl="file://$PROJECT_DIR$/../ps-redux/.idea/ps-redux.iml" filepath="$PROJECT_DIR$/../ps-redux/.idea/ps-redux.iml" />
+      <module fileurl="file://$PROJECT_DIR$/../scalable-react/.idea/scalable-react.iml" filepath="$PROJECT_DIR$/../scalable-react/.idea/scalable-react.iml" />
     </modules>
   </component>
 </project>
