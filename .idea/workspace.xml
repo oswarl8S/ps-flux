@@ -25,23 +25,106 @@
     </select>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="751df467-35cd-4e9b-b142-5396eb634628" name="Default Changelist" comment="ok">
-      <change afterPath="$PROJECT_DIR$/../scalable-react/app/components/Navigation/index.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../scalable-react/app/components/Navigation/styles.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../scalable-react/app/components/Navigation/tests/index.test.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../scalable-react/app/containers/NavigationContainer/actions.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../scalable-react/app/containers/NavigationContainer/constants.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../scalable-react/app/containers/NavigationContainer/index.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../scalable-react/app/containers/NavigationContainer/reducer.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../scalable-react/app/containers/NavigationContainer/sagas.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../scalable-react/app/containers/NavigationContainer/selectors.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../scalable-react/app/containers/NavigationContainer/tests/actions.test.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../scalable-react/app/containers/NavigationContainer/tests/index.test.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../scalable-react/app/containers/NavigationContainer/tests/reducer.test.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../scalable-react/app/containers/NavigationContainer/tests/sagas.test.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../scalable-react/app/containers/NavigationContainer/tests/selectors.test.js" afterDir="false" />
+    <list default="true" id="751df467-35cd-4e9b-b142-5396eb634628" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/../scalable-react/components/Navigation/index.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../scalable-react/components/Navigation/styles.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../scalable-react/components/Navigation/tests/index.test.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../scalable-react/app/.htaccess" beforeDir="false" afterPath="$PROJECT_DIR$/../scalable-react/app/.htaccess" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../scalable-react/app/.nginx.conf" beforeDir="false" afterPath="$PROJECT_DIR$/../scalable-react/app/.nginx.conf" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../scalable-react/app/app.js" beforeDir="false" afterPath="$PROJECT_DIR$/../scalable-react/app/app.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../scalable-react/app/components/Navigation/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/../scalable-react/app/components/Navigation/index.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../scalable-react/app/components/Navigation/styles.css" beforeDir="false" afterPath="$PROJECT_DIR$/../scalable-react/app/components/Navigation/styles.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../scalable-react/app/components/Navigation/tests/index.test.js" beforeDir="false" afterPath="$PROJECT_DIR$/../scalable-react/app/components/Navigation/tests/index.test.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../scalable-react/app/containers/App/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/../scalable-react/app/containers/App/index.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../scalable-react/app/containers/App/selectors.js" beforeDir="false" afterPath="$PROJECT_DIR$/../scalable-react/app/containers/App/selectors.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../scalable-react/app/containers/App/styles.css" beforeDir="false" afterPath="$PROJECT_DIR$/../scalable-react/app/containers/App/styles.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../scalable-react/app/containers/App/tests/selectors.test.js" beforeDir="false" afterPath="$PROJECT_DIR$/../scalable-react/app/containers/App/tests/selectors.test.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../scalable-react/app/containers/HomePage/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/../scalable-react/app/containers/HomePage/index.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../scalable-react/app/containers/HomePage/messages.js" beforeDir="false" afterPath="$PROJECT_DIR$/../scalable-react/app/containers/HomePage/messages.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../scalable-react/app/containers/LanguageProvider/actions.js" beforeDir="false" afterPath="$PROJECT_DIR$/../scalable-react/app/containers/LanguageProvider/actions.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../scalable-react/app/containers/LanguageProvider/constants.js" beforeDir="false" afterPath="$PROJECT_DIR$/../scalable-react/app/containers/LanguageProvider/constants.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../scalable-react/app/containers/LanguageProvider/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/../scalable-react/app/containers/LanguageProvider/index.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../scalable-react/app/containers/LanguageProvider/reducer.js" beforeDir="false" afterPath="$PROJECT_DIR$/../scalable-react/app/containers/LanguageProvider/reducer.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../scalable-react/app/containers/LanguageProvider/selectors.js" beforeDir="false" afterPath="$PROJECT_DIR$/../scalable-react/app/containers/LanguageProvider/selectors.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../scalable-react/app/containers/NavigationContainer/actions.js" beforeDir="false" afterPath="$PROJECT_DIR$/../scalable-react/app/containers/NavigationContainer/actions.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../scalable-react/app/containers/NavigationContainer/constants.js" beforeDir="false" afterPath="$PROJECT_DIR$/../scalable-react/app/containers/NavigationContainer/constants.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../scalable-react/app/containers/NavigationContainer/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/../scalable-react/app/containers/NavigationContainer/index.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../scalable-react/app/containers/NavigationContainer/reducer.js" beforeDir="false" afterPath="$PROJECT_DIR$/../scalable-react/app/containers/NavigationContainer/reducer.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../scalable-react/app/containers/NavigationContainer/sagas.js" beforeDir="false" afterPath="$PROJECT_DIR$/../scalable-react/app/containers/NavigationContainer/sagas.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../scalable-react/app/containers/NavigationContainer/selectors.js" beforeDir="false" afterPath="$PROJECT_DIR$/../scalable-react/app/containers/NavigationContainer/selectors.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../scalable-react/app/containers/NavigationContainer/tests/actions.test.js" beforeDir="false" afterPath="$PROJECT_DIR$/../scalable-react/app/containers/NavigationContainer/tests/actions.test.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../scalable-react/app/containers/NavigationContainer/tests/index.test.js" beforeDir="false" afterPath="$PROJECT_DIR$/../scalable-react/app/containers/NavigationContainer/tests/index.test.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../scalable-react/app/containers/NavigationContainer/tests/reducer.test.js" beforeDir="false" afterPath="$PROJECT_DIR$/../scalable-react/app/containers/NavigationContainer/tests/reducer.test.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../scalable-react/app/containers/NavigationContainer/tests/sagas.test.js" beforeDir="false" afterPath="$PROJECT_DIR$/../scalable-react/app/containers/NavigationContainer/tests/sagas.test.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../scalable-react/app/containers/NavigationContainer/tests/selectors.test.js" beforeDir="false" afterPath="$PROJECT_DIR$/../scalable-react/app/containers/NavigationContainer/tests/selectors.test.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../scalable-react/app/containers/NotFoundPage/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/../scalable-react/app/containers/NotFoundPage/index.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../scalable-react/app/containers/NotFoundPage/messages.js" beforeDir="false" afterPath="$PROJECT_DIR$/../scalable-react/app/containers/NotFoundPage/messages.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../scalable-react/app/favicon.ico" beforeDir="false" afterPath="$PROJECT_DIR$/../scalable-react/app/favicon.ico" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../scalable-react/app/i18n.js" beforeDir="false" afterPath="$PROJECT_DIR$/../scalable-react/app/i18n.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../scalable-react/app/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/../scalable-react/app/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../scalable-react/app/manifest.json" beforeDir="false" afterPath="$PROJECT_DIR$/../scalable-react/app/manifest.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../scalable-react/app/reducers.js" beforeDir="false" afterPath="$PROJECT_DIR$/../scalable-react/app/reducers.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../scalable-react/app/routes.js" beforeDir="false" afterPath="$PROJECT_DIR$/../scalable-react/app/routes.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../scalable-react/app/store.js" beforeDir="false" afterPath="$PROJECT_DIR$/../scalable-react/app/store.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../scalable-react/app/tests/store.test.js" beforeDir="false" afterPath="$PROJECT_DIR$/../scalable-react/app/tests/store.test.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../scalable-react/app/translations/de.json" beforeDir="false" afterPath="$PROJECT_DIR$/../scalable-react/app/translations/de.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../scalable-react/app/translations/en.json" beforeDir="false" afterPath="$PROJECT_DIR$/../scalable-react/app/translations/en.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../scalable-react/app/utils/asyncInjectors.js" beforeDir="false" afterPath="$PROJECT_DIR$/../scalable-react/app/utils/asyncInjectors.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../scalable-react/app/utils/tests/asyncInjectors.test.js" beforeDir="false" afterPath="$PROJECT_DIR$/../scalable-react/app/utils/tests/asyncInjectors.test.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../scalable-react/internals/config.js" beforeDir="false" afterPath="$PROJECT_DIR$/../scalable-react/internals/config.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../scalable-react/internals/generators/component/es6.js.hbs" beforeDir="false" afterPath="$PROJECT_DIR$/../scalable-react/internals/generators/component/es6.js.hbs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../scalable-react/internals/generators/component/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/../scalable-react/internals/generators/component/index.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../scalable-react/internals/generators/component/messages.js.hbs" beforeDir="false" afterPath="$PROJECT_DIR$/../scalable-react/internals/generators/component/messages.js.hbs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../scalable-react/internals/generators/component/stateless.js.hbs" beforeDir="false" afterPath="$PROJECT_DIR$/../scalable-react/internals/generators/component/stateless.js.hbs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../scalable-react/internals/generators/component/styles.css.hbs" beforeDir="false" afterPath="$PROJECT_DIR$/../scalable-react/internals/generators/component/styles.css.hbs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../scalable-react/internals/generators/component/test.js.hbs" beforeDir="false" afterPath="$PROJECT_DIR$/../scalable-react/internals/generators/component/test.js.hbs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../scalable-react/internals/generators/container/actions.js.hbs" beforeDir="false" afterPath="$PROJECT_DIR$/../scalable-react/internals/generators/container/actions.js.hbs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../scalable-react/internals/generators/container/actions.test.js.hbs" beforeDir="false" afterPath="$PROJECT_DIR$/../scalable-react/internals/generators/container/actions.test.js.hbs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../scalable-react/internals/generators/container/constants.js.hbs" beforeDir="false" afterPath="$PROJECT_DIR$/../scalable-react/internals/generators/container/constants.js.hbs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../scalable-react/internals/generators/container/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/../scalable-react/internals/generators/container/index.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../scalable-react/internals/generators/container/index.js.hbs" beforeDir="false" afterPath="$PROJECT_DIR$/../scalable-react/internals/generators/container/index.js.hbs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../scalable-react/internals/generators/container/messages.js.hbs" beforeDir="false" afterPath="$PROJECT_DIR$/../scalable-react/internals/generators/container/messages.js.hbs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../scalable-react/internals/generators/container/reducer.js.hbs" beforeDir="false" afterPath="$PROJECT_DIR$/../scalable-react/internals/generators/container/reducer.js.hbs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../scalable-react/internals/generators/container/reducer.test.js.hbs" beforeDir="false" afterPath="$PROJECT_DIR$/../scalable-react/internals/generators/container/reducer.test.js.hbs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../scalable-react/internals/generators/container/sagas.js.hbs" beforeDir="false" afterPath="$PROJECT_DIR$/../scalable-react/internals/generators/container/sagas.js.hbs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../scalable-react/internals/generators/container/sagas.test.js.hbs" beforeDir="false" afterPath="$PROJECT_DIR$/../scalable-react/internals/generators/container/sagas.test.js.hbs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../scalable-react/internals/generators/container/selectors.js.hbs" beforeDir="false" afterPath="$PROJECT_DIR$/../scalable-react/internals/generators/container/selectors.js.hbs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../scalable-react/internals/generators/container/selectors.test.js.hbs" beforeDir="false" afterPath="$PROJECT_DIR$/../scalable-react/internals/generators/container/selectors.test.js.hbs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../scalable-react/internals/generators/container/styles.css.hbs" beforeDir="false" afterPath="$PROJECT_DIR$/../scalable-react/internals/generators/container/styles.css.hbs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../scalable-react/internals/generators/container/test.js.hbs" beforeDir="false" afterPath="$PROJECT_DIR$/../scalable-react/internals/generators/container/test.js.hbs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../scalable-react/internals/generators/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/../scalable-react/internals/generators/index.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../scalable-react/internals/generators/language/add-locale-data.hbs" beforeDir="false" afterPath="$PROJECT_DIR$/../scalable-react/internals/generators/language/add-locale-data.hbs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../scalable-react/internals/generators/language/app-locale.hbs" beforeDir="false" afterPath="$PROJECT_DIR$/../scalable-react/internals/generators/language/app-locale.hbs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../scalable-react/internals/generators/language/format-translation-messages.hbs" beforeDir="false" afterPath="$PROJECT_DIR$/../scalable-react/internals/generators/language/format-translation-messages.hbs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../scalable-react/internals/generators/language/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/../scalable-react/internals/generators/language/index.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../scalable-react/internals/generators/language/intl-locale-data.hbs" beforeDir="false" afterPath="$PROJECT_DIR$/../scalable-react/internals/generators/language/intl-locale-data.hbs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../scalable-react/internals/generators/language/polyfill-intl-locale.hbs" beforeDir="false" afterPath="$PROJECT_DIR$/../scalable-react/internals/generators/language/polyfill-intl-locale.hbs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../scalable-react/internals/generators/language/translation-messages.hbs" beforeDir="false" afterPath="$PROJECT_DIR$/../scalable-react/internals/generators/language/translation-messages.hbs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../scalable-react/internals/generators/language/translations-json.hbs" beforeDir="false" afterPath="$PROJECT_DIR$/../scalable-react/internals/generators/language/translations-json.hbs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../scalable-react/internals/generators/route/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/../scalable-react/internals/generators/route/index.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../scalable-react/internals/generators/route/route.hbs" beforeDir="false" afterPath="$PROJECT_DIR$/../scalable-react/internals/generators/route/route.hbs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../scalable-react/internals/generators/route/routeWithReducer.hbs" beforeDir="false" afterPath="$PROJECT_DIR$/../scalable-react/internals/generators/route/routeWithReducer.hbs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../scalable-react/internals/generators/utils/componentExists.js" beforeDir="false" afterPath="$PROJECT_DIR$/../scalable-react/internals/generators/utils/componentExists.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../scalable-react/internals/scripts/analyze.js" beforeDir="false" afterPath="$PROJECT_DIR$/../scalable-react/internals/scripts/analyze.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../scalable-react/internals/scripts/clean.js" beforeDir="false" afterPath="$PROJECT_DIR$/../scalable-react/internals/scripts/clean.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../scalable-react/internals/scripts/dependencies.js" beforeDir="false" afterPath="$PROJECT_DIR$/../scalable-react/internals/scripts/dependencies.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../scalable-react/internals/scripts/extract-intl.js" beforeDir="false" afterPath="$PROJECT_DIR$/../scalable-react/internals/scripts/extract-intl.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../scalable-react/internals/scripts/helpers/checkmark.js" beforeDir="false" afterPath="$PROJECT_DIR$/../scalable-react/internals/scripts/helpers/checkmark.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../scalable-react/internals/scripts/helpers/progress.js" beforeDir="false" afterPath="$PROJECT_DIR$/../scalable-react/internals/scripts/helpers/progress.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../scalable-react/internals/scripts/npmcheckversion.js" beforeDir="false" afterPath="$PROJECT_DIR$/../scalable-react/internals/scripts/npmcheckversion.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../scalable-react/internals/testing/karma.conf.js" beforeDir="false" afterPath="$PROJECT_DIR$/../scalable-react/internals/testing/karma.conf.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../scalable-react/internals/testing/test-bundler.js" beforeDir="false" afterPath="$PROJECT_DIR$/../scalable-react/internals/testing/test-bundler.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../scalable-react/internals/webpack/webpack.base.babel.js" beforeDir="false" afterPath="$PROJECT_DIR$/../scalable-react/internals/webpack/webpack.base.babel.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../scalable-react/internals/webpack/webpack.dev.babel.js" beforeDir="false" afterPath="$PROJECT_DIR$/../scalable-react/internals/webpack/webpack.dev.babel.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../scalable-react/internals/webpack/webpack.dll.babel.js" beforeDir="false" afterPath="$PROJECT_DIR$/../scalable-react/internals/webpack/webpack.dll.babel.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../scalable-react/internals/webpack/webpack.prod.babel.js" beforeDir="false" afterPath="$PROJECT_DIR$/../scalable-react/internals/webpack/webpack.prod.babel.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../scalable-react/internals/webpack/webpack.test.babel.js" beforeDir="false" afterPath="$PROJECT_DIR$/../scalable-react/internals/webpack/webpack.test.babel.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../scalable-react/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/../scalable-react/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../scalable-react/server/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/../scalable-react/server/index.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../scalable-react/server/logger.js" beforeDir="false" afterPath="$PROJECT_DIR$/../scalable-react/server/logger.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../scalable-react/server/middlewares/api.js" beforeDir="false" afterPath="$PROJECT_DIR$/../scalable-react/server/middlewares/api.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../scalable-react/server/middlewares/frontendMiddleware.js" beforeDir="false" afterPath="$PROJECT_DIR$/../scalable-react/server/middlewares/frontendMiddleware.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -80,7 +163,7 @@
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../ps-auth0" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../scalable-react" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.path.for.package.eslint" value="project" />
     <property name="node.js.selected.package.eslint" value="(autodetect)" />
@@ -123,7 +206,8 @@
       <workItem from="1602689530186" duration="21538000" />
       <workItem from="1602980842613" duration="74000" />
       <workItem from="1602984388397" duration="779000" />
-      <workItem from="1603118937740" duration="18523000" />
+      <workItem from="1603118937740" duration="21270000" />
+      <workItem from="1603213084050" duration="542000" />
     </task>
     <task id="LOCAL-00001" summary="cambios">
       <created>1601650246572</created>
@@ -293,7 +377,14 @@
       <option name="project" value="LOCAL" />
       <updated>1603146167526</updated>
     </task>
-    <option name="localTasksCounter" value="25" />
+    <task id="LOCAL-00025" summary="new module">
+      <created>1603155688649</created>
+      <option name="number" value="00025" />
+      <option name="presentableId" value="LOCAL-00025" />
+      <option name="project" value="LOCAL" />
+      <updated>1603155688649</updated>
+    </task>
+    <option name="localTasksCounter" value="26" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -364,27 +455,28 @@
     <MESSAGE value="autentificacion" />
     <MESSAGE value="new project scalable" />
     <MESSAGE value="ok" />
-    <option name="LAST_COMMIT_MESSAGE" value="ok" />
+    <MESSAGE value="new module" />
+    <option name="LAST_COMMIT_MESSAGE" value="new module" />
   </component>
   <component name="WindowStateProjectService">
     <state x="1833" y="-9" key="#com.intellij.openapi.updateSettings.impl.PluginUpdateInfoDialog" timestamp="1602980848938">
       <screen x="1280" y="-258" width="1920" height="1015" />
     </state>
     <state x="1833" y="-9" key="#com.intellij.openapi.updateSettings.impl.PluginUpdateInfoDialog/1280.-258.1920.1015/0.22.1280.778@1280.-258.1920.1015" timestamp="1602980848938" />
-    <state x="1280" y="-258" width="1280" height="778" key="CommitChangelistDialog2" timestamp="1603150668848">
+    <state x="1280" y="-258" width="1280" height="778" key="CommitChangelistDialog2" timestamp="1603155671047">
       <screen x="1280" y="-258" width="1920" height="1058" />
     </state>
     <state x="-1453" y="-61" key="CommitChangelistDialog2/-1920.-258.1920.1058/0.22.1280.778@-1920.-258.1920.1058" timestamp="1602812645534" />
     <state x="0" y="22" width="1280" height="778" key="CommitChangelistDialog2/-1920.-258.1920.1058/0.22.1280.778@0.22.1280.778" timestamp="1602599875054" />
     <state x="24" y="55" width="1243" height="726" key="CommitChangelistDialog2/1280.-258.1920.1058/0.22.1280.778@0.22.1280.778" timestamp="1602524664100" />
-    <state x="1280" y="-258" width="1920" height="1058" key="CommitChangelistDialog2/1280.-258.1920.1058/0.22.1280.778@1280.-258.1920.1058" timestamp="1603150668848" />
-    <state x="1286" y="-255" width="1920" height="1058" maximized="true" key="DiffContextDialog" timestamp="1603150483183">
+    <state x="1280" y="-258" width="1920" height="1058" key="CommitChangelistDialog2/1280.-258.1920.1058/0.22.1280.778@1280.-258.1920.1058" timestamp="1603155671047" />
+    <state x="1286" y="-255" width="1920" height="1058" maximized="true" key="DiffContextDialog" timestamp="1603155662364">
       <screen x="1280" y="-258" width="1920" height="1058" />
     </state>
     <state x="-1920" y="-258" width="1920" height="1058" key="DiffContextDialog/-1920.-258.1920.1058/0.22.1280.778@-1920.-258.1920.1058" timestamp="1602809931804" />
     <state x="0" y="22" width="1280" height="778" key="DiffContextDialog/-1920.-258.1920.1058/0.22.1280.778@0.22.1280.778" timestamp="1602633371025" />
     <state x="28" y="48" width="1225" height="734" key="DiffContextDialog/1280.-258.1920.1058/0.22.1280.778@0.22.1280.778" timestamp="1602524663621" />
-    <state x="1286" y="-255" width="1908" height="1052" maximized="true" key="DiffContextDialog/1280.-258.1920.1058/0.22.1280.778@1280.-258.1920.1058" timestamp="1603150483183" />
+    <state x="1286" y="-255" width="1908" height="1052" maximized="true" key="DiffContextDialog/1280.-258.1920.1058/0.22.1280.778@1280.-258.1920.1058" timestamp="1603155662364" />
     <state width="1878" height="419" key="GridCell.Tab.0.bottom" timestamp="1602694064592">
       <screen x="-1920" y="-258" width="1920" height="1058" />
     </state>
@@ -433,13 +525,13 @@
     <state x="67" y="96" width="1147" height="631" key="VCS.FileHistoryDialog/-1920.-258.1920.1058/0.22.1280.778@0.22.1280.778" timestamp="1602633371026" />
     <state x="67" y="96" width="1147" height="631" key="VCS.FileHistoryDialog/1280.-258.1920.1058/0.22.1280.778@0.22.1280.778" timestamp="1602111329000" />
     <state x="1380" y="-158" width="1720" height="858" key="VCS.FileHistoryDialog/1280.-258.1920.1058/0.22.1280.778@1280.-258.1920.1058" timestamp="1602022664110" />
-    <state x="1388" y="-212" width="1749" height="959" key="Vcs.Push.Dialog.v2" timestamp="1603150073934">
+    <state x="1388" y="-212" width="1749" height="959" key="Vcs.Push.Dialog.v2" timestamp="1603155677891">
       <screen x="1280" y="-258" width="1920" height="1058" />
     </state>
     <state x="-1465" y="-55" key="Vcs.Push.Dialog.v2/-1920.-258.1920.1058/0.22.1280.778@-1920.-258.1920.1058" timestamp="1602809964943" />
     <state x="303" y="171" key="Vcs.Push.Dialog.v2/-1920.-258.1920.1058/0.22.1280.778@0.22.1280.778" timestamp="1602599885859" />
     <state x="303" y="171" key="Vcs.Push.Dialog.v2/1280.-258.1920.1058/0.22.1280.778@0.22.1280.778" timestamp="1602299778921" />
-    <state x="1388" y="-212" width="1749" height="959" key="Vcs.Push.Dialog.v2/1280.-258.1920.1058/0.22.1280.778@1280.-258.1920.1058" timestamp="1603150073934" />
+    <state x="1388" y="-212" width="1749" height="959" key="Vcs.Push.Dialog.v2/1280.-258.1920.1058/0.22.1280.778@1280.-258.1920.1058" timestamp="1603155677891" />
     <state x="-1476" y="-244" key="com.intellij.openapi.editor.actions.MultiplePasteAction$ClipboardContentChooser" timestamp="1602807118538">
       <screen x="-1920" y="-258" width="1920" height="1058" />
     </state>
