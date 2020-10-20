@@ -25,8 +25,21 @@
     </select>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="751df467-35cd-4e9b-b142-5396eb634628" name="Default Changelist" comment="new project scalable">
-      <change beforePath="$PROJECT_DIR$/.idea/codeStyles/codeStyleConfig.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/codeStyles/codeStyleConfig.xml" afterDir="false" />
+    <list default="true" id="751df467-35cd-4e9b-b142-5396eb634628" name="Default Changelist" comment="ok">
+      <change afterPath="$PROJECT_DIR$/../scalable-react/app/components/Navigation/index.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../scalable-react/app/components/Navigation/styles.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../scalable-react/app/components/Navigation/tests/index.test.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../scalable-react/app/containers/NavigationContainer/actions.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../scalable-react/app/containers/NavigationContainer/constants.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../scalable-react/app/containers/NavigationContainer/index.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../scalable-react/app/containers/NavigationContainer/reducer.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../scalable-react/app/containers/NavigationContainer/sagas.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../scalable-react/app/containers/NavigationContainer/selectors.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../scalable-react/app/containers/NavigationContainer/tests/actions.test.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../scalable-react/app/containers/NavigationContainer/tests/index.test.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../scalable-react/app/containers/NavigationContainer/tests/reducer.test.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../scalable-react/app/containers/NavigationContainer/tests/sagas.test.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../scalable-react/app/containers/NavigationContainer/tests/selectors.test.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../scalable-react/app/containers/App/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/../scalable-react/app/containers/App/index.js" afterDir="false" />
     </list>
@@ -54,12 +67,15 @@
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/../scalable-react" />
   </component>
   <component name="ProjectId" id="1iKJ1hlSSvTGI6HGPrdKcTVFEhz" />
-  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent">
+    <property name="ASKED_ADD_EXTERNAL_FILES" value="true" />
     <property name="ASKED_MARK_IGNORED_FILES_AS_EXCLUDED" value="true" />
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
@@ -107,7 +123,7 @@
       <workItem from="1602689530186" duration="21538000" />
       <workItem from="1602980842613" duration="74000" />
       <workItem from="1602984388397" duration="779000" />
-      <workItem from="1603118937740" duration="15203000" />
+      <workItem from="1603118937740" duration="18523000" />
     </task>
     <task id="LOCAL-00001" summary="cambios">
       <created>1601650246572</created>
@@ -326,6 +342,7 @@
   </component>
   <component name="VcsManagerConfiguration">
     <option name="CHECK_CODE_SMELLS_BEFORE_PROJECT_COMMIT" value="false" />
+    <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
     <MESSAGE value="cambios" />
     <MESSAGE value="hasta el video iniciando con flux" />
     <MESSAGE value="finalizado" />
@@ -346,27 +363,28 @@
     <MESSAGE value="logout" />
     <MESSAGE value="autentificacion" />
     <MESSAGE value="new project scalable" />
-    <option name="LAST_COMMIT_MESSAGE" value="new project scalable" />
+    <MESSAGE value="ok" />
+    <option name="LAST_COMMIT_MESSAGE" value="ok" />
   </component>
   <component name="WindowStateProjectService">
     <state x="1833" y="-9" key="#com.intellij.openapi.updateSettings.impl.PluginUpdateInfoDialog" timestamp="1602980848938">
       <screen x="1280" y="-258" width="1920" height="1015" />
     </state>
     <state x="1833" y="-9" key="#com.intellij.openapi.updateSettings.impl.PluginUpdateInfoDialog/1280.-258.1920.1015/0.22.1280.778@1280.-258.1920.1015" timestamp="1602980848938" />
-    <state x="1280" y="-258" width="1280" height="778" key="CommitChangelistDialog2" timestamp="1603149812049">
+    <state x="1280" y="-258" width="1280" height="778" key="CommitChangelistDialog2" timestamp="1603150668848">
       <screen x="1280" y="-258" width="1920" height="1058" />
     </state>
     <state x="-1453" y="-61" key="CommitChangelistDialog2/-1920.-258.1920.1058/0.22.1280.778@-1920.-258.1920.1058" timestamp="1602812645534" />
     <state x="0" y="22" width="1280" height="778" key="CommitChangelistDialog2/-1920.-258.1920.1058/0.22.1280.778@0.22.1280.778" timestamp="1602599875054" />
     <state x="24" y="55" width="1243" height="726" key="CommitChangelistDialog2/1280.-258.1920.1058/0.22.1280.778@0.22.1280.778" timestamp="1602524664100" />
-    <state x="1280" y="-258" width="1920" height="1058" key="CommitChangelistDialog2/1280.-258.1920.1058/0.22.1280.778@1280.-258.1920.1058" timestamp="1603149812049" />
-    <state x="1286" y="-255" width="1920" height="1058" key="DiffContextDialog" timestamp="1603149565378">
+    <state x="1280" y="-258" width="1920" height="1058" key="CommitChangelistDialog2/1280.-258.1920.1058/0.22.1280.778@1280.-258.1920.1058" timestamp="1603150668848" />
+    <state x="1286" y="-255" width="1920" height="1058" maximized="true" key="DiffContextDialog" timestamp="1603150483183">
       <screen x="1280" y="-258" width="1920" height="1058" />
     </state>
     <state x="-1920" y="-258" width="1920" height="1058" key="DiffContextDialog/-1920.-258.1920.1058/0.22.1280.778@-1920.-258.1920.1058" timestamp="1602809931804" />
     <state x="0" y="22" width="1280" height="778" key="DiffContextDialog/-1920.-258.1920.1058/0.22.1280.778@0.22.1280.778" timestamp="1602633371025" />
     <state x="28" y="48" width="1225" height="734" key="DiffContextDialog/1280.-258.1920.1058/0.22.1280.778@0.22.1280.778" timestamp="1602524663621" />
-    <state x="1286" y="-255" width="1908" height="1052" maximized="true" key="DiffContextDialog/1280.-258.1920.1058/0.22.1280.778@1280.-258.1920.1058" timestamp="1603149565378" />
+    <state x="1286" y="-255" width="1908" height="1052" maximized="true" key="DiffContextDialog/1280.-258.1920.1058/0.22.1280.778@1280.-258.1920.1058" timestamp="1603150483183" />
     <state width="1878" height="419" key="GridCell.Tab.0.bottom" timestamp="1602694064592">
       <screen x="-1920" y="-258" width="1920" height="1058" />
     </state>
@@ -415,13 +433,13 @@
     <state x="67" y="96" width="1147" height="631" key="VCS.FileHistoryDialog/-1920.-258.1920.1058/0.22.1280.778@0.22.1280.778" timestamp="1602633371026" />
     <state x="67" y="96" width="1147" height="631" key="VCS.FileHistoryDialog/1280.-258.1920.1058/0.22.1280.778@0.22.1280.778" timestamp="1602111329000" />
     <state x="1380" y="-158" width="1720" height="858" key="VCS.FileHistoryDialog/1280.-258.1920.1058/0.22.1280.778@1280.-258.1920.1058" timestamp="1602022664110" />
-    <state x="1840" y="11" key="Vcs.Push.Dialog.v2" timestamp="1603146174475">
+    <state x="1388" y="-212" width="1749" height="959" key="Vcs.Push.Dialog.v2" timestamp="1603150073934">
       <screen x="1280" y="-258" width="1920" height="1058" />
     </state>
     <state x="-1465" y="-55" key="Vcs.Push.Dialog.v2/-1920.-258.1920.1058/0.22.1280.778@-1920.-258.1920.1058" timestamp="1602809964943" />
     <state x="303" y="171" key="Vcs.Push.Dialog.v2/-1920.-258.1920.1058/0.22.1280.778@0.22.1280.778" timestamp="1602599885859" />
     <state x="303" y="171" key="Vcs.Push.Dialog.v2/1280.-258.1920.1058/0.22.1280.778@0.22.1280.778" timestamp="1602299778921" />
-    <state x="1840" y="11" key="Vcs.Push.Dialog.v2/1280.-258.1920.1058/0.22.1280.778@1280.-258.1920.1058" timestamp="1603146174475" />
+    <state x="1388" y="-212" width="1749" height="959" key="Vcs.Push.Dialog.v2/1280.-258.1920.1058/0.22.1280.778@1280.-258.1920.1058" timestamp="1603150073934" />
     <state x="-1476" y="-244" key="com.intellij.openapi.editor.actions.MultiplePasteAction$ClipboardContentChooser" timestamp="1602807118538">
       <screen x="-1920" y="-258" width="1920" height="1058" />
     </state>
